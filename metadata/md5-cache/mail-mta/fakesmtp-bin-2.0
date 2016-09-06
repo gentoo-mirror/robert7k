@@ -1,0 +1,12 @@
+DEFINED_PHASES=install unpack
+DEPEND=>=virtual/jre-1.6.0 dev-java/java-config:2
+DESCRIPTION=FakeSMTP is a Free Fake SMTP Server with GUI for testing emails in applications easily.
+EAPI=6
+HOMEPAGE=http://nilhcem.github.io/FakeSMTP/
+KEYWORDS=amd64 x86
+LICENSE=BSD
+SLOT=0
+SRC_URI=http://nilhcem.github.com/FakeSMTP/downloads/fakeSMTP-latest.zip
+_eclass_exported_funcs=src_unpack:- src_install:-
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
+_md5_=e8de8280e173e3e70d17e08f5b694276
