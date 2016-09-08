@@ -3,8 +3,8 @@ EAPI=4
 inherit eutils flag-o-matic autotools multilib toolchain-funcs
 
 DESCRIPTION="alpine is an easy to use text-based based mail and news client"
-HOMEPAGE="http://www.washington.edu/alpine/ http://patches.freeiz.com/alpine/"
-SRC_URI="http://repo.or.cz/alpine.git/snapshot/01170cfd3d5b6e5dfdc11c75f6e6740e8f938109.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="http://www.washington.edu/alpine/ http://patches.freeiz.com/alpine/ http://repo.or.cz/alpine.git/"
+SRC_URI="http://repo.or.cz/alpine.git/snapshot/097b72cb06f448728280ed53e033a447ed7b46be.tar.gz -> ${P}.tar.gz"
 
 LICENSE="Apache-2.0"
 KEYWORDS="~amd64 ~x86"
@@ -31,7 +31,7 @@ pkg_setup() {
 
 src_unpack() {
 	unpack ${A}
-	mv ${WORKDIR}/alpine-01170cf ${WORKDIR}/alpine-2.20.10
+	mv ${WORKDIR}/alpine-097b72c ${WORKDIR}/${P}
 }
 
 src_prepare() {
