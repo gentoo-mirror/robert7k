@@ -1,0 +1,8 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+app-crypt/truecrypt:asm - Enable assembly for optimization
+mail-client/alpine:passfile - Adds support for caching passwords into a file between sessions
+mail-client/alpine:smime - Enable support for S/MIME
+mail-client/alpine:topal - Enable support GnuPG encryption using net-mail/topal
