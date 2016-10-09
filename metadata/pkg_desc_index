@@ -8,7 +8,7 @@ app-misc/jbidwatcher 2.5.6: Java-based eBay bidding, sniping and tracking tool
 dev-python/notify2 0.3: Python interface to DBus notifications.
 dev-util/webstorm 135.1358: WebStorm is a lightweight yet powerful IDE, perfectly equipped for complex client-side development and server-side development with Node.js.
 games-arcade/OpenJazz 160214: Free engine for Jazz Jackrabbit game
-mail-client/alpine 2.10 2.11 2.20 2.20.15: alpine is an easy to use text-based based mail and news client
+mail-client/alpine 2.10 2.11 2.20 2.20.15 2.20.16: alpine is an easy to use text-based based mail and news client
 mail-mta/fakesmtp-bin 2.0: Fake SMTP Server with GUI for testing emails in applications easily.
 media-gfx/sweethome3d-bin 5.2: Sweet Home 3D is a free interior design application.
 media-sound/cling-workbench 2.1.1: A Java based desktop application for browsing UPnP devices and interacting with their services.
