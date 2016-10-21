@@ -1,5 +1,5 @@
 app-crypt/truecrypt 7.1a 7.2: Free open-source disk encryption software
-app-crypt/veracrypt 1.18: VeraCrypt is a free disk encryption software based on TrueCrypt
+app-crypt/veracrypt 1.18 1.19: VeraCrypt is a free disk encryption software based on TrueCrypt
 app-dicts/aspell-de 0.60_pre20030222-r1: German and Swiss-German language dictionary for aspell
 app-dicts/aspell-en 7.1.0-r1: English (US, British, Canadian) language dictionary for aspell
 app-dicts/myspell-de 2013.12.06-r1 2015.12.28-r1: German dictionaries for myspell/hunspell
