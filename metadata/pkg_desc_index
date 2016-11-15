@@ -3,9 +3,8 @@ app-crypt/veracrypt 1.18 1.19: VeraCrypt is a free disk encryption software base
 app-dicts/aspell-de 0.60_pre20030222-r1: German and Swiss-German language dictionary for aspell
 app-dicts/aspell-en 7.1.0-r1: English (US, British, Canadian) language dictionary for aspell
 app-dicts/myspell-de 2013.12.06-r1 2015.12.28-r1: German dictionaries for myspell/hunspell
-app-dicts/myspell-en 20151201-r1 20160201-r1: English dictionaries for myspell/hunspell
+app-dicts/myspell-en 20160201-r1 20160901-r1: English dictionaries for myspell/hunspell
 app-misc/jbidwatcher 2.5.6: Java-based eBay bidding, sniping and tracking tool
-dev-python/notify2 0.3: Python interface to DBus notifications.
 dev-util/webstorm 135.1358: WebStorm is a lightweight yet powerful IDE, perfectly equipped for complex client-side development and server-side development with Node.js.
 games-arcade/OpenJazz 160214: Free engine for Jazz Jackrabbit game
 mail-client/alpine 2.10 2.11 2.20 2.20.15 2.20.16: alpine is an easy to use text-based based mail and news client
