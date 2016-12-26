@@ -14,6 +14,7 @@ media-sound/cling-workbench 2.1.1: A Java based desktop application for browsing
 media-sound/pulseaudio-dlna 0.5.2: A lightweight streaming server which brings DLNA / UPNP and Chromecast support to PulseAudio and Linux
 media-sound/upplay 1.2.4-r1: A Qt-based UPnP audio Control point
 net-print/brother-hl5250dn-bin 2.0.1: Brother printer driver for HL-5250DN
+www-apps/fgallery 1.8.2: Static photo gallery generator
 www-client/firefox 24.8.1: Firefox Web Browser
 www-client/firefox-bin 50.0: Firefox Web Browser
 www-client/firefox-developer-bin 52.0_alpha2: Firefox Developer Edition
