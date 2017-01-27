@@ -16,6 +16,7 @@ media-sound/upplay 1.2.4-r1: A Qt-based UPnP audio Control point
 net-print/brother-hl5250dn-bin 2.0.1: Brother printer driver for HL-5250DN
 www-apps/fgallery 1.8.2: Static photo gallery generator
 www-client/firefox 24.8.1: Firefox Web Browser
-www-client/firefox-bin 51.0: Firefox Web Browser
+www-client/firefox-bin 51.0.1: Firefox Web Browser
+www-client/firefox-developer-bin 53.0_alpha2: Firefox Developer Edition
 x11-drivers/xf86-video-intel 2.99.917_p20161206: X.Org driver for Intel cards
 x11-plugins/gkrellm-wifi 0.9.12: A GKrellM2 plug-in for monitoring the link quality of your wireless LAN cards
