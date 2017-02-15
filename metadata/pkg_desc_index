@@ -9,7 +9,7 @@ dev-util/webstorm 135.1358: WebStorm is a lightweight yet powerful IDE, perfectl
 games-arcade/OpenJazz 160214: Free engine for Jazz Jackrabbit game
 mail-client/alpine 2.10 2.11 2.20 2.20.15 2.20.16: alpine is an easy to use text-based based mail and news client
 mail-mta/fakesmtp-bin 2.0: Fake SMTP Server with GUI for testing emails in applications easily.
-media-gfx/sweethome3d-bin 5.2: Sweet Home 3D is a free interior design application.
+media-gfx/sweethome3d-bin 5.2 5.4: Sweet Home 3D is a free interior design application.
 media-sound/cling-workbench 2.1.1: A Java based desktop application for browsing UPnP devices and interacting with their services.
 media-sound/pulseaudio-dlna 0.5.2: A lightweight streaming server which brings DLNA / UPNP and Chromecast support to PulseAudio and Linux
 media-sound/upplay 1.2.4-r1: A Qt-based UPnP audio Control point
