@@ -1,14 +1,13 @@
-DEFINED_PHASES=compile configure install preinst prepare setup
-DEPEND=>=virtual/jre-1.6.0 >=dev-java/java-config-2.2.0-r3 >=dev-java/ant-core-1.8.2:0 >=dev-java/javatoolkit-0.3.0-r2
-DESCRIPTION=A Java based desktop application for browsing UPnP devices and interacting with their services.
+DEFINED_PHASES=install setup unpack
+DEPEND=dev-python/beautifulsoup:python-2 dev-python/zeroconf[python_targets_python2_7?] dev-python/virtualenv[python_targets_python2_7?] dev-python/dbus-python[python_targets_python2_7?] dev-python/docopt[python_targets_python2_7?] >=dev-python/notify2-0.3[python_targets_python2_7?] dev-python/requests[python_targets_python2_7?] dev-python/pygobject:2[python_targets_python2_7?] dev-python/setproctitle[python_targets_python2_7?] dev-libs/protobuf[python_targets_python2_7?] >=dev-python/protobuf-python-2.5.0[python_targets_python2_7?] dev-python/psutil[python_targets_python2_7?] dev-python/futures[python_targets_python2_7?] dev-python/chardet[python_targets_python2_7?] dev-python/lxml[python_targets_python2_7?] dev-python/netifaces[python_targets_python2_7?] >=dev-vcs/git-1.8.2.1
+DESCRIPTION=A lightweight streaming server which brings DLNA / UPNP and Chromecast support to PulseAudio and Linux
 EAPI=5
-HOMEPAGE=http://4thline.org/projects/cling/
-IUSE=elibc_FreeBSD elibc_FreeBSD
-KEYWORDS=amd64 x86
-LICENSE=LGPL-2.1
-RDEPEND=>=virtual/jre-1.6.0 >=dev-java/java-config-2.2.0-r3
+HOMEPAGE=https://github.com/masmu/pulseaudio-dlna
+IUSE=python_targets_python2_7
+KEYWORDS=~amd64
+LICENSE=GPLv3
+RDEPEND=dev-python/beautifulsoup:python-2 dev-python/zeroconf[python_targets_python2_7?] dev-python/virtualenv[python_targets_python2_7?] dev-python/dbus-python[python_targets_python2_7?] dev-python/docopt[python_targets_python2_7?] >=dev-python/notify2-0.3[python_targets_python2_7?] dev-python/requests[python_targets_python2_7?] dev-python/pygobject:2[python_targets_python2_7?] dev-python/setproctitle[python_targets_python2_7?] dev-libs/protobuf[python_targets_python2_7?] >=dev-python/protobuf-python-2.5.0[python_targets_python2_7?] dev-python/psutil[python_targets_python2_7?] dev-python/futures[python_targets_python2_7?] dev-python/chardet[python_targets_python2_7?] dev-python/lxml[python_targets_python2_7?] dev-python/netifaces[python_targets_python2_7?]
 SLOT=0
-SRC_URI=http://4thline.org/projects/download/cling-distribution-2.1.1.zip -> cling-workbench-2.1.1.zip
-_eclass_exported_funcs=pkg_preinst:java-pkg-2 pkg_setup:java-pkg-2 src_prepare:java-pkg-2 src_configure:java-ant-2 src_compile:java-pkg-2 src_install:-
-_eclasses_=epatch	122e1264e67c4f59a1482f2095e0b35d	estack	5ac2a138d0b33354b764d84f9e835db8	eutils	1ef31aee2bd63ffbfcae8a1843c9208d	java-ant-2	4e2b30d918dda38a51839a4d45282b62	java-pkg-2	c4e6af2574fd1dc79b43a6e27af4b5fb	java-utils-2	1971a6927fcd7ec839f7e12b28a24bdd	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	0236be304ee52e7f179ed2f337075515	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	versionator	c80ccf29e90adea7c5cae94b42eb76d0
+_eclass_exported_funcs=pkg_setup:- src_unpack:git-r3 src_install:-
+_eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	epunt-cxx	f8073339d152f56626493f43d8ba4691	estack	5ac2a138d0b33354b764d84f9e835db8	eutils	e7491451996e8b54c3caeb713285b0fb	git-r3	68d35a154123e27007638d8220886ee1	ltprune	2770eed66a9b8ef944714cd0e968182e	multibuild	72647e255187a1fadc81097b3657e5c3	multilib	0236be304ee52e7f179ed2f337075515	python-r1	0c067f080a047742ffac024b16895b45	python-utils-r1	a166d0f5815d7f1e67bb60a196f1bf7e	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
 _md5_=1bc0a40d44eb61f8b4a9dda5a4b39770
