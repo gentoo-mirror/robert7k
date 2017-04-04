@@ -5,6 +5,7 @@ app-dicts/aspell-en 2016.11.20.0-r1: English (US) language dictionary for aspell
 app-dicts/myspell-de 2013.12.06-r1 2015.12.28-r1: German dictionaries for myspell/hunspell
 app-dicts/myspell-en 20160201-r1 20160901-r1: English dictionaries for myspell/hunspell
 app-misc/jbidwatcher 2.5.6: Java-based eBay bidding, sniping and tracking tool
+dev-db/sqlworkbench 122: Free, DBMS-independent, cross-platform SQL query tool.
 dev-util/idea 2017.1.0.171.3780: IntelliJ IDEA is an intelligent Java IDE
 dev-util/webstorm 135.1358: WebStorm is a lightweight yet powerful IDE, perfectly equipped for complex client-side development and server-side development with Node.js.
 games-arcade/OpenJazz 160214: Free engine for Jazz Jackrabbit game
