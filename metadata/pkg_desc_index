@@ -16,6 +16,7 @@ media-libs/libupnpp 0.14.1: A C++ wrapper for libupnp - used with upmpdcli or up
 media-sound/cling-workbench 2.1.1: A Java based desktop application for browsing UPnP devices and interacting with their services.
 media-sound/pulseaudio-dlna 0.5.2: A lightweight streaming server which brings DLNA / UPNP and Chromecast support to PulseAudio and Linux
 media-sound/upplay 1.2.4-r1: A Qt-based UPnP audio Control point
+net-im/SkypeExport 1.4.0: Cross-platform Skype history exporter written in C++
 net-im/skypeforlinux 5.1.0.1: P2P Internet Telephony (VoiceIP) client
 net-im/slack 2.5.2: Slack team communication desktop client
 net-print/brother-hl5250dn-bin 2.0.1: Brother printer driver for HL-5250DN
