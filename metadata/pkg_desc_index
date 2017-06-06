@@ -16,7 +16,7 @@ media-gfx/sweethome3d-bin 5.2 5.4: Sweet Home 3D is a free interior design appli
 media-libs/libupnpp 0.14.1: A C++ wrapper for libupnp - used with upmpdcli or upplay
 media-sound/cling-workbench 2.1.1: A Java based desktop application for browsing UPnP devices and interacting with their services.
 media-sound/pulseaudio-dlna 0.5.2: A lightweight streaming server which brings DLNA / UPNP and Chromecast support to PulseAudio and Linux
-media-sound/upplay 1.2.4-r1: A Qt-based UPnP audio Control point
+media-sound/upplay 1.2.9: A Qt-based UPnP audio Control point
 net-im/SkypeExport 1.4.0: Cross-platform Skype history exporter written in C++
 net-im/slack 2.6.2: Slack team communication desktop client
 net-misc/youtube-dl 2017.05.01: Download videos from YouTube.com (and more sites...)
