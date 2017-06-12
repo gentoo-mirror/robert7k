@@ -5,7 +5,6 @@ app-dicts/aspell-en 2017.01.22.0: English (US, British, Canadian) language dicti
 app-dicts/myspell-de_DE 2015.12.28-r1: German dictionaries for myspell/hunspell
 app-dicts/myspell-en_US 20170101: English dictionaries for myspell/hunspell
 app-misc/jbidwatcher 2.5.6: Java-based eBay bidding, sniping and tracking tool
-dev-db/mysql-workbench 6.3.4-r3: MySQL Workbench
 dev-db/sqlworkbench 122: Free, DBMS-independent, cross-platform SQL query tool.
 dev-util/idea 2017.1.4.171.4694: IntelliJ IDEA is an intelligent Java IDE
 dev-util/webstorm 135.1358: WebStorm is a lightweight yet powerful IDE, perfectly equipped for complex client-side development and server-side development with Node.js.
