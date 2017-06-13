@@ -7,6 +7,7 @@ app-dicts/myspell-en_US 20170101: English dictionaries for myspell/hunspell
 app-misc/jbidwatcher 2.5.6: Java-based eBay bidding, sniping and tracking tool
 dev-db/sqlworkbench 122: Free, DBMS-independent, cross-platform SQL query tool.
 dev-util/idea 2017.1.4.171.4694: IntelliJ IDEA is an intelligent Java IDE
+dev-util/jaspersoft-studio 6.3.1: Eclipse-based report development tool for JasperReports and JasperReports Server
 dev-util/webstorm 135.1358: WebStorm is a lightweight yet powerful IDE, perfectly equipped for complex client-side development and server-side development with Node.js.
 games-arcade/OpenJazz 160214: Free engine for Jazz Jackrabbit game
 mail-client/alpine 2.21: alpine is an easy to use text-based based mail and news client
