@@ -23,6 +23,6 @@ net-misc/youtube-dl 2017.05.01: Download videos from YouTube.com (and more sites
 net-print/brother-hl5250dn-bin 2.0.1: Brother printer driver for HL-5250DN
 www-apps/fgallery 1.8.2: Static photo gallery generator
 www-client/firefox-bin 51.0.1: Firefox Web Browser
-www-client/firefox-developer-bin 54.0_alpha2: Firefox Developer Edition
+www-client/firefox-developer-bin 55.0_beta2: Firefox Developer Edition
 x11-drivers/xf86-video-intel 2.99.917_p20161206: X.Org driver for Intel cards
 x11-plugins/gkrellm-wifi 0.9.12: A GKrellM2 plug-in for monitoring the link quality of your wireless LAN cards
