@@ -5,7 +5,7 @@ app-dicts/myspell-de_DE 2015.12.28-r1: German dictionaries for myspell/hunspell
 app-dicts/myspell-en_US 20170101: English dictionaries for myspell/hunspell
 app-misc/jbidwatcher 2.5.6: Java-based eBay bidding, sniping and tracking tool
 dev-db/sqlworkbench 122: Free, DBMS-independent, cross-platform SQL query tool.
-dev-util/idea 2017.1.4.171.4694 2017.1.5.171.4694: IntelliJ IDEA is an intelligent Java IDE
+dev-util/idea 2017.1.5.171.4694: IntelliJ IDEA is an intelligent Java IDE
 dev-util/jaspersoft-studio 6.3.1: Eclipse-based report development tool for JasperReports and JasperReports Server
 dev-util/webstorm 135.1358: WebStorm is a lightweight yet powerful IDE, perfectly equipped for complex client-side development and server-side development with Node.js.
 games-arcade/OpenJazz 160214: Free engine for Jazz Jackrabbit game
@@ -21,5 +21,5 @@ net-im/slack 2.6.3: Slack team communication desktop client
 net-print/brother-hl5250dn-bin 2.0.1: Brother printer driver for HL-5250DN
 www-apps/fgallery 1.8.2: Static photo gallery generator
 www-client/firefox-bin 51.0.1: Firefox Web Browser
-www-client/firefox-developer-bin 55.0_beta2: Firefox Developer Edition
+www-client/firefox-developer-bin 55.0_beta6: Firefox Developer Edition
 x11-plugins/gkrellm-wifi 0.9.12: A GKrellM2 plug-in for monitoring the link quality of your wireless LAN cards
