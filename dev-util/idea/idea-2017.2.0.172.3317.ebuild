@@ -1,6 +1,6 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+
 EAPI="4"
 inherit eutils versionator
 
@@ -66,6 +66,18 @@ src_install() {
 	rm bin/idea-${SLOT}.vmoptions
 
 	ln -s /etc/idea/idea-${SLOT}.properties bin/idea.properties
+
+	if [[ "$ARCH" == "amd64" ]]; then
+		rm -rf jre64 || die
+		dosym "/etc/java-config-2/current-system-vm" "${dir}/jre64"
+	else
+		rm -rf jre || die
+		dosym "/etc/java-config-2/current-system-vm" "${dir}/jre"
+	fi
+
+	rm bin/fsnotifier-arm
+	rm -rf plugins/tfsIntegration/lib/native/linux/ppc
+	rm -rf plugins/tfsIntegration/lib/native/solaris
 
 	# idea itself
 	insinto "${dir}"
