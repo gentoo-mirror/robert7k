@@ -19,6 +19,7 @@ net-im/SkypeExport 1.4.0: Cross-platform Skype history exporter written in C++
 net-im/skypeforlinux 5.4.0.1: P2P Internet Telephony (VoiceIP) client
 net-im/slack 2.7.1: Slack team communication desktop client
 net-print/brother-hl5250dn-bin 2.0.1: Brother printer driver for HL-5250DN
+sci-physics/geigerlog 0.9.04: GeigerLog is a Python based GUI program to work with GQ Electronic's GMC-300 / 320 and now also GMC-500 Geiger counters.
 www-apps/fgallery 1.8.2: Static photo gallery generator
 www-client/firefox-bin 51.0.1: Firefox Web Browser
 www-client/firefox-developer-bin 56.0_beta3: Firefox Developer Edition
