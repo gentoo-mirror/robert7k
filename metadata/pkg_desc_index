@@ -16,6 +16,7 @@ media-libs/libupnpp 0.16.0: A C++ wrapper for libupnp - used with upmpdcli or up
 media-sound/cling-workbench 2.1.1: A Java based desktop application for browsing UPnP devices and interacting with their services.
 media-sound/upplay 1.2.11: A Qt-based UPnP audio Control point
 net-im/SkypeExport 1.4.0: Cross-platform Skype history exporter written in C++
+net-im/signal-desktop-bin 1.0.35: Signal Desktop
 net-im/skypeforlinux 5.4.0.1: P2P Internet Telephony (VoiceIP) client
 net-print/brother-hl5250dn-bin 2.0.1: Brother printer driver for HL-5250DN
 sci-physics/geigerlog 0.9.04: GeigerLog is a Python based GUI program to work with GQ Electronic's GMC-300 / 320 and now also GMC-500 Geiger counters.
