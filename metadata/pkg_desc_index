@@ -21,6 +21,6 @@ net-im/skypeforlinux 5.4.0.1: P2P Internet Telephony (VoiceIP) client
 net-print/brother-hl5250dn-bin 2.0.1: Brother printer driver for HL-5250DN
 sci-physics/geigerlog 0.9.04: GeigerLog is a Python based GUI program to work with GQ Electronic's GMC-300 / 320 and now also GMC-500 Geiger counters.
 www-apps/fgallery 1.8.2: Static photo gallery generator
-www-client/firefox-bin 51.0.1: Firefox Web Browser
+www-client/firefox-bin 57.0: Firefox Web Browser
 www-client/firefox-developer-bin 58.0_beta1: Firefox Developer Edition
 x11-plugins/gkrellm-wifi 0.9.12: A GKrellM2 plug-in for monitoring the link quality of your wireless LAN cards
