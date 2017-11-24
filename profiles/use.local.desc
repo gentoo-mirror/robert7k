@@ -3,6 +3,3 @@
 # * generated automatically using pmaint *
 
 app-crypt/truecrypt:asm - Enable assembly for optimization
-mail-client/alpine:passfile - Adds support for caching passwords into a file between sessions
-mail-client/alpine:smime - Enable support for S/MIME
-mail-client/alpine:topal - Enable support GnuPG encryption using net-mail/topal
