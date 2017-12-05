@@ -21,5 +21,5 @@ sci-physics/geigerlog 0.9.04: GeigerLog is a Python based GUI program to work wi
 sys-fs/geteltorito 0.6: Perl script which to extract El Torito boot images
 www-apps/fgallery 1.8.2: Static photo gallery generator
 www-client/firefox-bin 57.0: Firefox Web Browser
-www-client/firefox-developer-bin 58.0_beta1: Firefox Developer Edition
+www-client/firefox-developer-bin 58.0_beta1 58.0_beta9: Firefox Developer Edition
 x11-plugins/gkrellm-wifi 0.9.12: A GKrellM2 plug-in for monitoring the link quality of your wireless LAN cards
