@@ -19,6 +19,7 @@ net-im/skypeforlinux 8.11.0.4: Instant messaging client, with support for audio 
 net-print/brother-hl5250dn-bin 2.0.1: Brother printer driver for HL-5250DN
 sci-physics/geigerlog 0.9.04: GeigerLog is a Python based GUI program to work with GQ Electronic's GMC-300 / 320 and now also GMC-500 Geiger counters.
 sys-fs/geteltorito 0.6: Perl script which to extract El Torito boot images
+sys-power/acpi_call 1.1.0-r2: A kernel module that enables you to call ACPI methods
 www-apps/fgallery 1.8.2: Static photo gallery generator
 www-client/firefox-bin 57.0: Firefox Web Browser
 www-client/firefox-developer-bin 58.0_beta9: Firefox Developer Edition
