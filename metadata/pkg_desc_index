@@ -2,6 +2,7 @@ app-dicts/aspell-de 0.60_pre20030222: German and Swiss-German language dictionar
 app-dicts/myspell-de_DE 2015.12.28-r1: German dictionaries for myspell/hunspell
 app-dicts/myspell-en_US 20170101: English dictionaries for myspell/hunspell
 dev-util/webstorm 135.1358: WebStorm is a lightweight yet powerful IDE, perfectly equipped for complex client-side development and server-side development with Node.js.
+mail-client/thunderbird-bin 58.0_beta2: Thunderbird Mail Client
 mail-mta/fakesmtp-bin 2.0: Fake SMTP Server with GUI for testing emails in applications easily.
 media-sound/cling-workbench 2.1.1: A Java based desktop application for browsing UPnP devices and interacting with their services.
 x11-plugins/gkrellm-wifi 0.9.12: A GKrellM2 plug-in for monitoring the link quality of your wireless LAN cards
