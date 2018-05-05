@@ -1,4 +1,4 @@
-DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEFINED_PHASES=compile configure install nofetch postinst preinst prepare setup unpack
 DEPEND=>=media-libs/libsdl-1.2 media-libs/libmodplug
 DESCRIPTION=Free engine for Jazz Jackrabbit game
 EAPI=5

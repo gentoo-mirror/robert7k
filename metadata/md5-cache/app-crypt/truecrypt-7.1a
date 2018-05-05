@@ -1,4 +1,4 @@
-DEFINED_PHASES=compile install postinst prepare setup test
+DEFINED_PHASES=compile install nofetch postinst prepare setup test
 DEPEND=>=sys-fs/lvm2-2.02.45 sys-fs/fuse x11-libs/wxGTK:2.8[X?] app-admin/sudo !ppc? ( dev-lang/nasm )
 DESCRIPTION=Free open-source disk encryption software
 EAPI=4
