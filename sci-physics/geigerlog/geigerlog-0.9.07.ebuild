@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND="
-	dev-lang/python:2.7
+	dev-lang/python:3.5
 	dev-python/PyQt4[phonon]
 	dev-python/matplotlib
 	dev-python/pyserial
