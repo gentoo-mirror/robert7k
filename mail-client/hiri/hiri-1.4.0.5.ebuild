@@ -21,12 +21,20 @@ BDEPEND=""
 
 S="${WORKDIR}/hiri_${PV}"
 
+QA_PREBUILT="/opt/${PN}/*.so
+	/opt/${PN}/*.so.1.0.0
+	/opt/${PN}/*.so.5
+	/opt/${PN}/libpython3.5m.so.1.0
+	/opt/${PN}/hirimain
+	/opt/${PN}/QtWebEngineProcess"
+
 src_install() {
-	insinto /opt/hiri
+	insinto /opt/${PN}
 	doins -r $S/*
 
-	fperms a+x /opt/hiri/hiri.sh /opt/hiri/hirimain /opt/hiri/QtWebEngineProcess
+	exeinto /opt/${PN}
+	doexe hiri.sh hirimain QtWebEngineProcess
 
 	doicon $S/hiri.png
-	make_desktop_entry /opt/hiri/${PN}.sh "Hiri" ${PN} "Network"
+	make_desktop_entry /opt/${PN}/${PN}.sh "Hiri" ${PN} "Network"
 }
