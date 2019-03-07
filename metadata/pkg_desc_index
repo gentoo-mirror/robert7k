@@ -1,5 +1,5 @@
 app-dicts/aspell-de 0.60_pre20030222: German and Swiss-German language dictionary for aspell
-app-dicts/myspell-de_DE 2015.12.28-r1: German dictionaries for myspell/hunspell
+app-dicts/myspell-de_DE 2017.01.12: German dictionaries for myspell/hunspell
 app-dicts/myspell-en_US 20170101: English dictionaries for myspell/hunspell
 dev-util/webstorm 135.1358: WebStorm is a lightweight yet powerful IDE, perfectly equipped for complex client-side development and server-side development with Node.js.
 mail-mta/fakesmtp-bin 2.0: Fake SMTP Server with GUI for testing emails in applications easily.
