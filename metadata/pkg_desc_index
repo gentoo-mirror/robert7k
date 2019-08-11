@@ -1,7 +1,32 @@
+app-crypt/truecrypt 7.2: Free open-source disk encryption software
 app-dicts/aspell-de 0.60_pre20030222: German and Swiss-German language dictionary for aspell
+app-dicts/aspell-en 2017.01.22.0: English (US, British, Canadian) language dictionary for aspell
 app-dicts/myspell-de_DE 2017.01.12: German dictionaries for myspell/hunspell
 app-dicts/myspell-en_US 20170101: English dictionaries for myspell/hunspell
+app-misc/jbidwatcher 2.5.6: Java-based eBay bidding, sniping and tracking tool
+app-shells/gradle-completion 1.4.1: Bash completions for Gradle
+app-text/pdfposter 0.6.0 0.7: Scale and tile PDF images/pages to print on multiple pages.
+dev-db/sqlworkbench 124: Free, DBMS-independent, cross-platform SQL query tool.
+dev-java/gradle-bin 4.5.1 4.6 4.7 4.9: A project automation and build tool with a Groovy based DSL
+dev-util/idea 2017.3.5.173.4674 2018.3.6.183.6156.11 2019.2.0.192.5728.98: IntelliJ IDEA is an intelligent Java IDE
+dev-util/idea-ultimate 2018.1.0.181.4203.550: A complete toolset for web, mobile and enterprise development
+dev-util/jaspersoft-studio 6.3.1: Eclipse-based report development tool for JasperReports and JasperReports Server
 dev-util/webstorm 135.1358: WebStorm is a lightweight yet powerful IDE, perfectly equipped for complex client-side development and server-side development with Node.js.
+games-arcade/OpenJazz 160214: Free engine for Jazz Jackrabbit game
+mail-client/alpine 2.21.1-r1: An easy to use text-based based mail and news client
+mail-client/hiri 1.4.0.5: An email client for Exchange and Office 365
+mail-client/mailspring-bin 1.5.6: Advanced email client
 mail-mta/fakesmtp-bin 2.0: Fake SMTP Server with GUI for testing emails in applications easily.
+media-gfx/sweethome3d-bin 5.6 5.7 6.1: Sweet Home 3D is a free interior design application.
+media-libs/libupnpp 0.17.1: A C++ wrapper for libupnp - used with upmpdcli or upplay
+media-sound/amarok 9999: Advanced audio player based on KDE frameworks
 media-sound/cling-workbench 2.1.1: A Java based desktop application for browsing UPnP devices and interacting with their services.
+media-sound/upplay 1.3.5: A Qt-based UPnP audio Control point
+net-im/SkypeExport 1.4.0: Cross-platform Skype history exporter written in C++
+net-print/brother-hl5250dn-bin 2.0.1: Brother printer driver for HL-5250DN
+sci-physics/geigerlog 0.9.05 0.9.07 0.9.07-r1 0.9.90: A Python based GUI program to work with GQ Electronic's Geiger counters
+sys-fs/geteltorito 0.6: Perl script which to extract El Torito boot images
+www-apps/fgallery 1.8.2: Static photo gallery generator
+www-client/firefox-developer-bin 60.0_beta6: Firefox Developer Edition
+www-client/phantomjs 2.1.1-r1: A headless WebKit scriptable with a JavaScript API
 x11-plugins/gkrellm-wifi 0.9.12: A GKrellM2 plug-in for monitoring the link quality of your wireless LAN cards
