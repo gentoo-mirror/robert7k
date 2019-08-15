@@ -8,6 +8,7 @@ app-shells/gradle-completion 1.4.1: Bash completions for Gradle
 app-text/pdfposter 0.6.0 0.7: Scale and tile PDF images/pages to print on multiple pages.
 dev-db/sqlworkbench 124: Free, DBMS-independent, cross-platform SQL query tool.
 dev-java/gradle-bin 4.5.1 4.6 4.7 4.9: A project automation and build tool with a Groovy based DSL
+dev-tex/rmligs 0.87: Removes incorrectly used ligatures from LaTeX documents
 dev-util/idea 2017.3.5.173.4674 2018.3.6.183.6156.11 2019.2.0.192.5728.98: IntelliJ IDEA is an intelligent Java IDE
 dev-util/idea-ultimate 2018.1.0.181.4203.550: A complete toolset for web, mobile and enterprise development
 dev-util/jaspersoft-studio 6.3.1: Eclipse-based report development tool for JasperReports and JasperReports Server
@@ -23,6 +24,7 @@ media-sound/amarok 9999: Advanced audio player based on KDE frameworks
 media-sound/cling-workbench 2.1.1: A Java based desktop application for browsing UPnP devices and interacting with their services.
 media-sound/upplay 1.3.5: A Qt-based UPnP audio Control point
 net-im/SkypeExport 1.4.0: Cross-platform Skype history exporter written in C++
+net-misc/icaclient 19.1.0.9: ICA Client for Citrix Presentation servers
 net-print/brother-hl5250dn-bin 2.0.1: Brother printer driver for HL-5250DN
 sci-physics/geigerlog 0.9.05 0.9.07 0.9.07-r1 0.9.90: A Python based GUI program to work with GQ Electronic's Geiger counters
 sys-fs/geteltorito 0.6: Perl script which to extract El Torito boot images
