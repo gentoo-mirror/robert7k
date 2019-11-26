@@ -23,7 +23,6 @@ media-sound/amarok 9999: Advanced audio player based on KDE frameworks
 media-sound/cling-workbench 2.1.1: A Java based desktop application for browsing UPnP devices and interacting with their services.
 media-sound/upplay 1.3.5: A Qt-based UPnP audio Control point
 net-im/SkypeExport 1.4.0: Cross-platform Skype history exporter written in C++
-net-misc/icaclient 19.1.0.9: ICA Client for Citrix Presentation servers
 net-print/brother-hl5250dn-bin 2.0.1: Brother printer driver for HL-5250DN
 sci-physics/geigerlog 0.9.05 0.9.07 0.9.07-r1 0.9.90 0.9.92: A Python based GUI program to work with GQ Electronic's Geiger counters
 sys-fs/geteltorito 0.6: Perl script which to extract El Torito boot images
