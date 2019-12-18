@@ -9,7 +9,7 @@ app-text/pdfposter 0.6.0 0.7: Scale and tile PDF images/pages to print on multip
 dev-db/sqlworkbench 124: Free, DBMS-independent, cross-platform SQL query tool.
 dev-java/gradle-bin 4.5.1 4.6 4.7 4.9: A project automation and build tool with a Groovy based DSL
 dev-tex/rmligs 0.87: Removes incorrectly used ligatures from LaTeX documents
-dev-util/idea 2017.3.5.173.4674 2018.3.6.183.6156.11 2019.3.0.193.5233.102: IntelliJ IDEA is an intelligent Java IDE
+dev-util/idea 2017.3.5.173.4674 2018.3.6.183.6156.11 2019.3.1.193.5662.53: IntelliJ IDEA is an intelligent Java IDE
 dev-util/idea-ultimate 2018.1.0.181.4203.550: A complete toolset for web, mobile and enterprise development
 dev-util/jaspersoft-studio 6.3.1: Eclipse-based report development tool for JasperReports and JasperReports Server
 dev-util/webstorm 135.1358: WebStorm is a lightweight yet powerful IDE, perfectly equipped for complex client-side development and server-side development with Node.js.
