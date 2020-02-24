@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst prepare unpack
+DESCRIPTION=Lync & Skype for Business client on Linux
+EAPI=5
+HOMEPAGE=https://tel.red
+IUSE=legacy-openssl
+KEYWORDS=-* ~amd64
+LICENSE=eula_tel.red
+RDEPEND=!net-im/sky-ng dev-db/sqlite:3 >=dev-qt/qtcore-5.6:5 || ( >=dev-qt/qtgui-5.6:5[dbus,gif,jpeg,png,xcb] >=dev-qt/qtgui-5.14:5[dbus,gif,jpeg,png] ) >=dev-qt/qtnetwork-5.6:5 >=dev-qt/qtwidgets-5.6:5 !legacy-openssl? ( dev-libs/openssl:0/1.1 ) legacy-openssl? ( dev-libs/openssl:0/0 ) media-libs/libv4l media-sound/pulseaudio media-video/ffmpeg:0/56.58.58[X] net-misc/curl sys-apps/util-linux >=sys-libs/glibc-2.28:2.2 x11-libs/libX11 x11-libs/libXcursor x11-libs/libXdamage x11-libs/libXext x11-libs/libXfixes x11-libs/libXi x11-libs/libXinerama x11-libs/libxkbfile x11-libs/libXmu x11-libs/libXrandr x11-libs/libXrender x11-libs/libXScrnSaver x11-libs/libXtst x11-libs/libXv
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=amd64? ( !legacy-openssl? ( https://tel.red/repos/gentoo/sky-gentoo-2.1.7520-1-x86_64.tar.xz ) legacy-openssl? ( https://tel.red/repos/gentoo/sky-gentoo-ossl10-2.1.7520-1-x86_64.tar.xz ) )
+_eclasses_=desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	ed88001f77c6dd0d5f09e45c1a5b480e	estack	686eaab303305a908fd57b2fd7617800	eutils	fcb2aa98e1948b835b5ae66ca52868c5	gnome2-utils	532371cfcba45b2ab0d2950547c97d95	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=8a35b569d9c0ea532d29ba8111f89c83
