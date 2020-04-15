@@ -25,7 +25,6 @@ media-gfx/curaengine 4.5.0: A 3D model slicing engine for 3D printing
 media-gfx/fdm-materials 4.5.0: FDM materials for media-gfx/cura
 media-gfx/sweethome3d-bin 5.6 5.7 6.2: Sweet Home 3D is a free interior design application.
 media-libs/libupnpp 0.17.2: A C++ wrapper for libupnp - used with upmpdcli or upplay
-media-sound/amarok 9999: Advanced audio player based on KDE frameworks
 media-sound/cling-workbench 2.1.1: A Java based desktop application for browsing UPnP devices and interacting with their services.
 media-sound/upplay 1.4.2: A Qt-based UPnP audio Control point
 net-im/SkypeExport 1.4.0: Cross-platform Skype history exporter written in C++
