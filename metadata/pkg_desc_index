@@ -29,6 +29,7 @@ media-libs/libupnpp 0.17.2: A C++ wrapper for libupnp - used with upmpdcli or up
 media-sound/cling-workbench 2.1.1: A Java based desktop application for browsing UPnP devices and interacting with their services.
 media-sound/upplay 1.4.2: A Qt-based UPnP audio Control point
 net-im/SkypeExport 1.4.0: Cross-platform Skype history exporter written in C++
+net-im/fractal 4.2.2: Matrix group messaging app
 net-im/signal-desktop-bin 1.31.0_beta1 1.31.0: Allows you to send and receive messages of Signal Messenger on your computer
 net-im/sky 2.1.7520.1-r1: Lync & Skype for Business client on Linux
 net-print/brother-hl5250dn-bin 2.0.1: Brother printer driver for HL-5250DN
