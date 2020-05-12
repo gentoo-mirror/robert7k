@@ -7,6 +7,7 @@ app-misc/jbidwatcher 2.5.6: Java-based eBay bidding, sniping and tracking tool
 app-shells/gradle-completion 1.4.1: Bash completions for Gradle
 app-text/pdfposter 0.7-r1: Scale and tile PDF images/pages to print on multiple pages.
 dev-db/sqlworkbench 124: Free, DBMS-independent, cross-platform SQL query tool.
+dev-python/pyaudio 0.2.11-r1: Python bindings for PortAudio
 dev-tex/rmligs 0.87: Removes incorrectly used ligatures from LaTeX documents
 dev-util/idea 2017.3.5.173.4674 2018.3.6.183.6156.11 2019.3.4.193.6911.18 2020.1.1.201.7223.91: IntelliJ IDEA is an intelligent Java IDE
 dev-util/idea-ultimate 2018.1.0.181.4203.550: A complete toolset for web, mobile and enterprise development
@@ -26,9 +27,8 @@ net-im/fractal 4.2.2: Matrix group messaging app
 net-im/signal-desktop-bin 1.33.4: Allows you to send and receive messages of Signal Messenger on your computer
 net-im/sky 2.1.7520.1-r1: Lync & Skype for Business client on Linux
 net-print/brother-hl5250dn-bin 2.0.1: Brother printer driver for HL-5250DN
-sci-physics/geigerlog 0.9.05 0.9.07 0.9.07-r1 0.9.90 0.9.92: A Python based GUI program to work with GQ Electronic's Geiger counters
+sci-physics/geigerlog 0.9.92 0.9.92-r1: A Python based GUI program to work with GQ Electronic's Geiger counters
 sys-fs/geteltorito 0.6: Perl script which to extract El Torito boot images
 www-apps/fgallery 1.8.2: Static photo gallery generator
-www-client/firefox-developer-bin 60.0_beta6: Firefox Developer Edition
 www-client/phantomjs 2.1.1-r1: A headless WebKit scriptable with a JavaScript API
 x11-plugins/gkrellm-wifi 0.9.12: A GKrellM2 plug-in for monitoring the link quality of your wireless LAN cards
