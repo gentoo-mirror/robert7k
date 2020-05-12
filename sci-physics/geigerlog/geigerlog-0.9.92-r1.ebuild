@@ -1,9 +1,12 @@
 # Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
-inherit eutils
+PYTHON_COMPAT=( python3_{6,7,8} )
+PYTHON_REQ_USE="sqlite"
+
+inherit desktop eutils python-single-r1
 
 DESCRIPTION="A Python based GUI program to work with GQ Electronic's Geiger counters"
 HOMEPAGE="https://sourceforge.net/projects/geigerlog/"
@@ -14,17 +17,19 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-RDEPEND="
-	dev-lang/python:3.6[sqlite]
-	dev-python/PyQt5
-	dev-python/setuptools
-	dev-python/matplotlib
-	>=dev-python/numpy-1.14
-	sci-libs/scipy
-	dev-python/pyserial
-	dev-python/paho-mqtt
-	dev-python/pyaudio
-	"
+RDEPEND="${PYTHON_DEPS}
+	$(python_gen_cond_dep '
+	dev-python/PyQt5[${PYTHON_USEDEP}]
+	dev-python/PyQt5-sip[${PYTHON_USEDEP}]
+	dev-python/setuptools[${PYTHON_USEDEP}]
+	<dev-python/matplotlib-3.1.0[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.14[${PYTHON_USEDEP}]
+	sci-libs/scipy[${PYTHON_USEDEP}]
+	dev-python/pyserial[${PYTHON_USEDEP}]
+	dev-python/paho-mqtt[${PYTHON_USEDEP}]
+	dev-python/pyaudio[${PYTHON_USEDEP}]
+	')"
+DEPEND="${RDEPEND}"
 
 PATCHES=(
 	"${FILESDIR}/${P}.patch"
@@ -39,6 +44,6 @@ src_install() {
 	rm -r "${S}/data"
 	dodir /usr/share/${PN}
 	cp -r ${S}/* ${D}/usr/share/${PN}
-	dosym /usr/share/${PN}/${PN} /usr/bin/${PN}
+	python_fix_shebang ${D}/usr/share/${PN}/${PN}
 	make_desktop_entry ${PN} GeigerLog /usr/share/${PN}/gres/icon_geigerlog.png
 }
