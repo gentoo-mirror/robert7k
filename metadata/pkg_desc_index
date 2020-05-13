@@ -7,7 +7,6 @@ app-misc/jbidwatcher 2.5.6: Java-based eBay bidding, sniping and tracking tool
 app-shells/gradle-completion 1.4.1: Bash completions for Gradle
 app-text/pdfposter 0.7-r1: Scale and tile PDF images/pages to print on multiple pages.
 dev-db/sqlworkbench 124: Free, DBMS-independent, cross-platform SQL query tool.
-dev-python/pyaudio 0.2.11-r1: Python bindings for PortAudio
 dev-tex/rmligs 0.87: Removes incorrectly used ligatures from LaTeX documents
 dev-util/idea 2017.3.5.173.4674 2018.3.6.183.6156.11 2019.3.4.193.6911.18 2020.1.1.201.7223.91: IntelliJ IDEA is an intelligent Java IDE
 dev-util/idea-ultimate 2018.1.0.181.4203.550: A complete toolset for web, mobile and enterprise development
