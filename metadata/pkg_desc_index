@@ -13,7 +13,7 @@ dev-util/idea-ultimate 2018.1.0.181.4203.550: A complete toolset for web, mobile
 dev-util/jaspersoft-studio 6.3.1: Eclipse-based report development tool for JasperReports and JasperReports Server
 dev-util/webstorm 135.1358: WebStorm is a lightweight yet powerful IDE, perfectly equipped for complex client-side development and server-side development with Node.js.
 games-arcade/OpenJazz 160214: Free engine for Jazz Jackrabbit game
-mail-client/alpine 2.23 2.23.1: An easy to use text-based based mail and news client
+mail-client/alpine 2.23 2.23.2: An easy to use text-based based mail and news client
 mail-client/hiri 1.4.0.5: An email client for Exchange and Office 365
 mail-mta/fakesmtp-bin 2.0: Fake SMTP Server with GUI for testing emails in applications easily.
 media-gfx/sweethome3d-bin 5.6 5.7 6.2 6.3: Sweet Home 3D is a free interior design application.
