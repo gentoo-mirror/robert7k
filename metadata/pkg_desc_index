@@ -30,5 +30,4 @@ sci-physics/geigerlog 0.9.92 0.9.92-r1: A Python based GUI program to work with 
 sys-fs/geteltorito 0.6: Perl script which to extract El Torito boot images
 www-apps/fgallery 1.8.2: Static photo gallery generator
 www-client/phantomjs 2.1.1-r1: A headless WebKit scriptable with a JavaScript API
-www-servers/tomcat 8.5.57-r1: Tomcat Servlet-3.1/JSP-2.3/EL-3.0/WebSocket-1.1/JASPIC-1.1 Container
 x11-plugins/gkrellm-wifi 0.9.12: A GKrellM2 plug-in for monitoring the link quality of your wireless LAN cards
