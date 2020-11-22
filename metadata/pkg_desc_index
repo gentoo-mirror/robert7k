@@ -3,7 +3,7 @@ app-dicts/aspell-de 0.60_pre20030222: German and Swiss-German language dictionar
 app-dicts/aspell-en 2017.01.22.0: English (US, British, Canadian) language dictionary for aspell
 app-dicts/myspell-de_DE 2017.01.12: German dictionaries for myspell/hunspell
 app-dicts/myspell-en_US 20170101: English dictionaries for myspell/hunspell
-app-i18n/transifex-client 0.13.9: A command line interface for Transifex
+app-i18n/transifex-client 0.14.2: A command line interface for Transifex
 app-misc/jbidwatcher 2.5.6: Java-based eBay bidding, sniping and tracking tool
 app-shells/gradle-completion 1.4.1: Bash completions for Gradle
 app-text/pdfposter 0.7-r1: Scale and tile PDF images/pages to print on multiple pages.
