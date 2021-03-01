@@ -3,14 +3,14 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_{6,7,8} )
+PYTHON_COMPAT=( python3_{6,7,8,9} )
 PYTHON_REQ_USE="sqlite"
 
 inherit desktop eutils python-single-r1
 
 DESCRIPTION="A Python based GUI program to work with GQ Electronic's Geiger counters"
 HOMEPAGE="https://sourceforge.net/projects/geigerlog/"
-SRC_URI="https://downloads.sourceforge.net/project/geigerlog/geigerlog-scripts-v${PV}.zip"
+SRC_URI="https://downloads.sourceforge.net/project/geigerlog/geigerlog-v${PV}.zip"
 
 LICENSE="GPLv3"
 SLOT="0"
@@ -21,6 +21,7 @@ RDEPEND="${PYTHON_DEPS}
 	$(python_gen_cond_dep '
 	dev-python/PyQt5[${PYTHON_USEDEP}]
 	dev-python/PyQt5-sip[${PYTHON_USEDEP}]
+	dev-python/pip[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
