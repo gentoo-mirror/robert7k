@@ -27,7 +27,7 @@ net-im/SkypeExport 1.4.0: Cross-platform Skype history exporter written in C++
 net-im/fractal 4.2.2: Matrix group messaging app
 net-im/sky 2.1.7520.1-r1: Lync & Skype for Business client on Linux
 net-print/brother-hl5250dn-bin 2.0.1: Brother printer driver for HL-5250DN
-sci-physics/geigerlog 1.1 1.2: A Python based GUI program to work with GQ Electronic's Geiger counters
+sci-physics/geigerlog 1.1 1.2.1: A Python based GUI program to work with GQ Electronic's Geiger counters
 sys-fs/geteltorito 0.6: Perl script which to extract El Torito boot images
 www-apps/fgallery 1.8.2: Static photo gallery generator
 www-client/phantomjs 2.1.1-r1: A headless WebKit scriptable with a JavaScript API
