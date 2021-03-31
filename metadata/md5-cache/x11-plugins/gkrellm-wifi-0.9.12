@@ -3,6 +3,7 @@ DEPEND=>=app-admin/gkrellm-2.1.12 >=net-wireless/wireless-tools-22 >=x11-libs/gt
 DESCRIPTION=A GKrellM2 plug-in for monitoring the link quality of your wireless LAN cards
 EAPI=7
 HOMEPAGE=https://github.com/tecknicaltom/gkrellm-wifi
+INHERIT=multilib
 KEYWORDS=x86 ppc amd64
 LICENSE=GPL-2
 RDEPEND=>=app-admin/gkrellm-2.1.12 >=net-wireless/wireless-tools-22
