@@ -12,7 +12,7 @@ dev-util/idea-ultimate 2018.1.0.181.4203.550: A complete toolset for web, mobile
 dev-util/jaspersoft-studio 6.3.1: Eclipse-based report development tool for JasperReports and JasperReports Server
 dev-util/webstorm 135.1358: WebStorm is a lightweight yet powerful IDE, perfectly equipped for complex client-side development and server-side development with Node.js.
 games-arcade/openjazz 20190106: Free engine for Jazz Jackrabbit game
-mail-client/alpine 2.24 2.24.1: An easy to use text-based based mail and news client
+mail-client/alpine 2.24 2.24.2: An easy to use text-based based mail and news client
 mail-client/hiri 1.4.0.5: An email client for Exchange and Office 365
 mail-mta/fakesmtp-bin 2.0: Fake SMTP Server with GUI for testing emails in applications easily.
 media-gfx/sweethome3d-bin 6.5.2: Sweet Home 3D is a free interior design application.
@@ -22,7 +22,7 @@ media-sound/cling-workbench 2.1.1: A Java based desktop application for browsing
 media-sound/upplay 1.4.9: A Qt-based UPnP audio Control point
 net-im/SkypeExport 1.4.0: Cross-platform Skype history exporter written in C++
 net-im/fractal 4.2.2: Matrix group messaging app
-net-im/signal-desktop-bin 5.2.0: Allows you to send and receive messages of Signal Messenger on your computer
+net-im/signal-desktop-bin 5.2.1: Allows you to send and receive messages of Signal Messenger on your computer
 net-im/sky 2.1.7520.1-r1: Lync & Skype for Business client on Linux
 sci-geosciences/offroad 0.6_beta2 9999: Offline vector map display ported from OsmAnd
 sci-physics/geigerlog 1.1 1.2.1: A Python based GUI program to work with GQ Electronic's Geiger counters
