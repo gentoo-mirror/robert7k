@@ -19,7 +19,7 @@ media-gfx/sweethome3d-bin 6.5.2: Sweet Home 3D is a free interior design applica
 media-libs/libnpupnp 4.0.14: UPnP library derived from the venerable pupnp
 media-libs/libupnpp 0.20.0: A C++ wrapper for libupnp - used with upmpdcli or upplay
 media-sound/cling-workbench 2.1.1: A Java based desktop application for browsing UPnP devices and interacting with their services.
-media-sound/upplay 1.4.9: A Qt-based UPnP audio Control point
+media-sound/upplay 1.4.9-r1: A Qt-based UPnP audio Control point
 net-im/SkypeExport 1.4.0: Cross-platform Skype history exporter written in C++
 net-im/fractal 4.2.2: Matrix group messaging app
 net-im/signal-desktop-bin 5.11.0: Allows you to send and receive messages of Signal Messenger on your computer
