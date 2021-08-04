@@ -7,7 +7,7 @@ inherit qmake-utils
 
 DESCRIPTION="A Qt-based UPnP audio Control point"
 HOMEPAGE="http://www.lesbonscomptes.com/upplay"
-SRC_URI="http://www.lesbonscomptes.com/upplay/downloads/${PN}-${PV}.tar.gz"
+SRC_URI="http://www.lesbonscomptes.com/upplay/downloads/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
@@ -18,16 +18,24 @@ DEPEND="
 		dev-libs/expat
 		dev-libs/jsoncpp
 		dev-qt/qtnetwork:5
-		dev-qt/qtwebkit:5
+		dev-qt/qtwebengine:5
 		>=media-libs/libupnpp-0.19.0
 		net-misc/curl"
 RDEPEND="${DEPEND}"
 
+src_prepare() {
+	eapply_user
+
+	sed -e "s:#WEBPLATFORM = webengine:WEBPLATFORM = webengine:" \
+		-i upplay.pro
+}
+
 src_compile() {
 	eqmake5 PREFIX="/usr"
 	sed -e "s:Categories=.*$:Categories=Audio;AudioVideo;:" \
-                -i upplay.desktop
+		-i upplay.desktop
 }
+
 src_install() {
 	emake install INSTALL_ROOT="${D}"
 }
