@@ -21,7 +21,7 @@ media-sound/cling-workbench 2.1.1: A Java based desktop application for browsing
 media-sound/upplay 1.4.9-r1: A Qt-based UPnP audio Control point
 net-im/SkypeExport 1.4.0: Cross-platform Skype history exporter written in C++
 net-im/fractal 4.2.2: Matrix group messaging app
-net-im/signal-desktop-bin 5.23.0: Allows you to send and receive messages of Signal Messenger on your computer
+net-im/signal-desktop-bin 5.23.1: Allows you to send and receive messages of Signal Messenger on your computer
 net-im/sky 2.1.7520.1-r1: Lync & Skype for Business client on Linux
 sci-geosciences/offroad 0.6_beta2 9999: Offline vector map display ported from OsmAnd
 sci-physics/geigerlog 1.1 1.2.1: A Python based GUI program to work with GQ Electronic's Geiger counters
