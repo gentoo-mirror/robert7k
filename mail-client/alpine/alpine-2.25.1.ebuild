@@ -1,40 +1,34 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 inherit autotools toolchain-funcs
 
 DESCRIPTION="An easy to use text-based based mail and news client"
 HOMEPAGE="http://alpine.x10host.com/alpine/ https://repo.or.cz/alpine.git/"
-CHAPPA_PATCH_NAME="${P}-chappa.patch"
-COMMIT="9121164149cdeac438762406514df10f459e8918"
-SRC_URI="https://repo.or.cz/alpine.git/snapshot/${COMMIT}.tar.gz -> ${P}.tar.gz
-	chappa? ( http://alpine.x10host.com/alpine/alpha/patches/${P}/all.patch.gz -> ${CHAPPA_PATCH_NAME}.gz ) "
+SRC_URI="https://repo.or.cz/alpine.git/snapshot/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86"
-IUSE="+chappa doc ipv6 kerberos ldap libressl nls onlyalpine passfile smime spell ssl threads"
+IUSE="ipv6 kerberos ldap nls onlyalpine passfile smime spell ssl threads"
 
-DEPEND="sys-libs/ncurses
+DEPEND="sys-libs/ncurses:=
+	virtual/libcrypt:=
 	kerberos? ( app-crypt/mit-krb5 )
 	ldap? ( net-nds/openldap )
 	spell? ( app-text/aspell )
-	ssl? (
-		!libressl? ( dev-libs/openssl:0= )
-		libressl? ( dev-libs/libressl:0= )
-	)
+	ssl? ( dev-libs/openssl:0= )
 "
 RDEPEND="${DEPEND}
 	app-misc/mime-types
 "
 
-S="${WORKDIR}/${PN}-${COMMIT:0:7}"
+S="${WORKDIR}/${PN}-v${PV}"
 
 src_prepare() {
 	default
-	use chappa && eapply "${WORKDIR}/${CHAPPA_PATCH_NAME}"
 	eautoreconf
 	tc-export CC RANLIB AR
 	export CC_FOR_BUILD=$(tc-getBUILD_CC)
@@ -81,12 +75,10 @@ src_install() {
 
 	dodoc NOTICE README*
 
-	if use doc ; then
-		dodoc doc/brochure.txt
+	dodoc doc/brochure.txt
 
-		dodoc -r doc/tech-notes/
-		newdoc "${S}/doc/mailcap.unx" mailcap.unx.sample
-		newdoc "${S}/doc/mime.types" mime.types.sample
-		docompress -x /usr/share/doc/${PF}/mailcap.unx.sample /usr/share/doc/${PF}/mime.types.sample
-	fi
+	dodoc -r doc/tech-notes/
+	newdoc "${S}/doc/mailcap.unx" mailcap.unx.sample
+	newdoc "${S}/doc/mime.types" mime.types.sample
+	docompress -x /usr/share/doc/${PF}/mailcap.unx.sample /usr/share/doc/${PF}/mime.types.sample
 }
