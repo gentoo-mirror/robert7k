@@ -1,5 +1,6 @@
 app-dicts/myspell-de_DE 2017.01.12: German dictionaries for myspell/hunspell
 app-dicts/myspell-en_US 20170101: English dictionaries for myspell/hunspell
+app-i18n/transifex-cli 1.0.0: The Transifex command-line client
 app-misc/tws 9999: Interactive Brokers Trader Workstation TWS
 app-shells/gradle-completion 1.4.1: Bash completions for Gradle
 app-text/pdfposter 0.7-r1: Scale and tile PDF images/pages to print on multiple pages.
