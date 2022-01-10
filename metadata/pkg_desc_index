@@ -17,10 +17,8 @@ mail-client/alpine 2.25 2.25.1: An easy to use text-based based mail and news cl
 mail-client/hiri 1.4.0.5: An email client for Exchange and Office 365
 mail-mta/fakesmtp-bin 2.0: Fake SMTP Server with GUI for testing emails in applications easily.
 media-gfx/sweethome3d-bin 6.6-r1: Sweet Home 3D is a free interior design application.
-media-libs/libnpupnp 4.0.14: UPnP library derived from the venerable pupnp
-media-libs/libupnpp 0.20.0: A C++ wrapper for libupnp - used with upmpdcli or upplay
 media-sound/cling-workbench 2.1.1: A Java based desktop application for browsing UPnP devices and interacting with their services.
-media-sound/upplay 1.4.9-r1: A Qt-based UPnP audio Control point
+media-sound/upplay 1.4.9-r2: A Qt-based UPnP audio Control point
 net-im/SkypeExport 1.4.0: Cross-platform Skype history exporter written in C++
 net-im/fractal 4.2.2: Matrix group messaging app
 net-im/signal-desktop-bin 5.27.1: Allows you to send and receive messages of Signal Messenger on your computer
