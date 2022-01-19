@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare unpack
+DEPEND=net-misc/curl
+DESCRIPTION=Tool to control Skytraq GPS data loggers.
+EAPI=8
+HOMEPAGE=https://github.com/dtan4/skytraq-datalogger
+INHERIT=git-r3
+KEYWORDS=~amd64
+LICENSE=GPLv2
+PROPERTIES=live
+RDEPEND=net-misc/curl
+SLOT=0
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+_md5_=ce094f67ff64df75f6ee4e1adab602a1
