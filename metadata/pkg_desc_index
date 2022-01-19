@@ -5,6 +5,7 @@ app-misc/tws 9999: Interactive Brokers Trader Workstation TWS
 app-shells/gradle-completion 1.4.1: Bash completions for Gradle
 app-text/pdfposter 0.7-r1: Scale and tile PDF images/pages to print on multiple pages.
 dev-db/sqlworkbench 128: Free, DBMS-independent, cross-platform SQL query tool.
+dev-java/keystore-explorer 5.5.0: Java key-store management tool.
 dev-python/SoundFile 0.10.2: SoundFile is an audio library based on libsndfile, CFFI and NumPy.
 dev-python/sounddevice 0.4.1: Python bindings for PortAudio
 dev-tex/rmligs 0.87: Removes incorrectly used ligatures from LaTeX documents
