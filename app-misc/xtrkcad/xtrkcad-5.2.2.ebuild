@@ -13,7 +13,8 @@ LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64"
 
-DEPEND="dev-libs/libzip"
+DEPEND="dev-libs/libzip
+	dev-libs/mxml"
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
@@ -23,6 +24,7 @@ BUILDDIR="${S}_build"
 src_configure() {
 	local mycmakeargs=(
 		-DCMAKE_INSTALL_PREFIX="${EPREFIX}/usr"
+		-DMINIXML_STATIC_LIBRARY="/usr/lib64/libmxml.so"
 	)
 
 	cmake_src_configure
@@ -36,6 +38,8 @@ src_install() {
 	dolib.so ${BUILDDIR}/app/dynstring/libdynstring.so
 	dolib.so ${BUILDDIR}/app/wlib/gtklib/libxtrkcad-wlib.so
 	dolib.so ${BUILDDIR}/app/cornu/libxtrkcad-cornu.so
+
+	dodoc ${S}/app/lib/Readme.md
 
 	newicon "app/lib/${PN}.png" "${PN}.png"
 	make_desktop_entry "${PN}" "XTrkCAD" "${PN}" "Graphics"
