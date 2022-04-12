@@ -11,7 +11,7 @@ dev-java/keystore-explorer 5.5.1: Java key-store management tool.
 dev-python/SoundFile 0.10.2: SoundFile is an audio library based on libsndfile, CFFI and NumPy.
 dev-python/sounddevice 0.4.1: Python bindings for PortAudio
 dev-tex/rmligs 0.87: Removes incorrectly used ligatures from LaTeX documents
-dev-util/idea 2021.3.3: IntelliJ IDEA is an intelligent Java IDE
+dev-util/idea 2022.1: IntelliJ IDEA is an intelligent Java IDE
 dev-util/idea-ultimate 2018.1.0.181.4203.550: A complete toolset for web, mobile and enterprise development
 dev-util/jaspersoft-studio 6.3.1: Eclipse-based report development tool for JasperReports and JasperReports Server
 games-arcade/openjazz 20190106: Free engine for Jazz Jackrabbit game
