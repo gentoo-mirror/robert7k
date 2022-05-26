@@ -16,7 +16,7 @@ dev-util/idea 2022.1.1: IntelliJ IDEA is an intelligent Java IDE
 dev-util/idea-ultimate 2018.1.0.181.4203.550: A complete toolset for web, mobile and enterprise development
 dev-util/jaspersoft-studio 6.3.1: Eclipse-based report development tool for JasperReports and JasperReports Server
 games-arcade/openjazz 20190106: Free engine for Jazz Jackrabbit game
-mail-client/alpine 2.25 2.25.1: An easy to use text-based based mail and news client
+mail-client/alpine 2.25 2.25-r3 2.25.1: An easy to use text-based based mail and news client
 mail-client/hiri 1.4.0.5: An email client for Exchange and Office 365
 mail-mta/fakesmtp-bin 2.0: Fake SMTP Server with GUI for testing emails in applications easily.
 media-gfx/sweethome3d-bin 6.6-r1: Sweet Home 3D is a free interior design application.
