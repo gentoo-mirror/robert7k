@@ -1,6 +1,6 @@
 app-dicts/myspell-de_DE 2017.01.12: German dictionaries for myspell/hunspell
 app-dicts/myspell-en_US 20170101: English dictionaries for myspell/hunspell
-app-i18n/transifex-client 1.1.0: The Transifex command-line client
+app-i18n/transifex-client 1.1.0 1.2.0: The Transifex command-line client
 app-misc/tws 9999: Interactive Brokers Trader Workstation TWS
 app-misc/xtrkcad 5.2.2: Model Railway CAD program
 app-shells/gradle-completion 1.4.1: Bash completions for Gradle
@@ -24,7 +24,7 @@ media-gfx/sweethome3d-bin 6.6-r1: Sweet Home 3D is a free interior design applic
 media-sound/cling-workbench 2.1.1: A Java based desktop application for browsing UPnP devices and interacting with their services.
 media-sound/upplay 1.4.9-r2: A Qt-based UPnP audio Control point
 net-im/SkypeExport 1.4.0: Cross-platform Skype history exporter written in C++
-net-im/signal-desktop-bin 5.47.0: Allows you to send and receive messages of Signal Messenger on your computer
+net-im/signal-desktop-bin 5.48.0: Allows you to send and receive messages of Signal Messenger on your computer
 net-im/sky 2.1.7520.1-r1: Lync & Skype for Business client on Linux
 net-misc/gdrive 3.0.10: Command line utility for interacting with Google Drive
 net-misc/postman-bin 9.16.0: Postman is an API platform for building and using APIs.
