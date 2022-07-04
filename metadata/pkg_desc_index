@@ -4,14 +4,14 @@ app-i18n/transifex-client 1.1.0 1.2.0: The Transifex command-line client
 app-misc/tws 9999: Interactive Brokers Trader Workstation TWS
 app-misc/xtrkcad 5.2.2: Model Railway CAD program
 app-shells/gradle-completion 1.4.1: Bash completions for Gradle
-app-text/pdfposter 0.7-r1: Scale and tile PDF images/pages to print on multiple pages.
+app-text/pdfposter 0.7-r1 0.8: Scale and tile PDF images/pages to print on multiple pages.
 dev-db/sqlworkbench 128: Free, DBMS-independent, cross-platform SQL query tool.
 dev-java/jnlp-api 6.0.18: JNLP API classes, repackaged from the icedtea-web fork of netx
 dev-java/keystore-explorer 5.5.1: Java key-store management tool.
 dev-java/log4j 1.2.17-r3: A low-overhead robust logging package for Java
 dev-python/SoundFile 0.10.2: SoundFile is an audio library based on libsndfile, CFFI and NumPy.
 dev-python/pyroute2 0.5.14: A pure Python netlink and Linux network configuration library
-dev-python/sounddevice 0.4.1: Python bindings for PortAudio
+dev-python/sounddevice 0.4.1 0.4.4: Python bindings for PortAudio
 dev-tex/rmligs 0.87: Removes incorrectly used ligatures from LaTeX documents
 dev-util/idea 2022.1.3: IntelliJ IDEA is an intelligent Java IDE
 dev-util/idea-ultimate 2018.1.0.181.4203.550: A complete toolset for web, mobile and enterprise development
