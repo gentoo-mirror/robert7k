@@ -5,6 +5,7 @@ app-misc/tws 9999: Interactive Brokers Trader Workstation TWS
 app-misc/xtrkcad 5.2.2: Model Railway CAD program
 app-shells/gradle-completion 1.4.1: Bash completions for Gradle
 app-text/pdfposter 0.7-r1 0.8: Scale and tile PDF images/pages to print on multiple pages.
+dev-db/azure-data-studio 1.37.0: Azure Data Studio is a cross-platform database tool for data professionals
 dev-db/sqlworkbench 128: Free, DBMS-independent, cross-platform SQL query tool.
 dev-java/jnlp-api 6.0.18: JNLP API classes, repackaged from the icedtea-web fork of netx
 dev-java/keystore-explorer 5.5.1: Java key-store management tool.
