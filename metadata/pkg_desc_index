@@ -1,6 +1,6 @@
 app-dicts/myspell-de_DE 2017.01.12: German dictionaries for myspell/hunspell
 app-dicts/myspell-en_US 20170101: English dictionaries for myspell/hunspell
-app-i18n/transifex-client 1.1.0 1.2.0: The Transifex command-line client
+app-i18n/transifex-client 1.3.0: The Transifex command-line client
 app-misc/tws 9999: Interactive Brokers Trader Workstation TWS
 app-misc/xtrkcad 5.2.2: Model Railway CAD program
 app-shells/gradle-completion 1.4.1: Bash completions for Gradle
