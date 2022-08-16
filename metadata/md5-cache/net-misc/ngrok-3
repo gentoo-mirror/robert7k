@@ -1,0 +1,9 @@
+DEFINED_PHASES=compile install
+DESCRIPTION=programmable network edge
+EAPI=8
+HOMEPAGE=https://ngrok.com
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+SLOT=0
+SRC_URI=https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz
+_md5_=4e878c733ec876445187e686ce1a7d3a
