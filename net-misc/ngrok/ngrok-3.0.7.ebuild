@@ -5,7 +5,7 @@ EAPI=8
 
 DESCRIPTION="programmable network edge"
 HOMEPAGE="https://ngrok.com"
-SRC_URI="https://bin.equinox.io/c/bNyj1mQVY4c/${PN}-v${PV}-stable-linux-amd64.tgz"
+SRC_URI="https://bin.equinox.io/c/bNyj1mQVY4c/${PN}-v$(ver_cut 1)-stable-linux-amd64.tgz -> ${P}.tgz"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
