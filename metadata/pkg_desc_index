@@ -12,6 +12,7 @@ dev-java/log4j 1.2.17-r3: A low-overhead robust logging package for Java
 dev-python/SoundFile 0.10.2: SoundFile is an audio library based on libsndfile, CFFI and NumPy.
 dev-python/pyroute2 0.5.14: A pure Python netlink and Linux network configuration library
 dev-python/sounddevice 0.4.1 0.4.4: Python bindings for PortAudio
+dev-qt/qtdbusextended 0.0.3: Extended DBus for Qt
 dev-tex/rmligs 0.87: Removes incorrectly used ligatures from LaTeX documents
 dev-util/idea 2022.1.4 2022.2.1: IntelliJ IDEA is an intelligent Java IDE
 dev-util/idea-ultimate 2018.1.0.181.4203.550: A complete toolset for web, mobile and enterprise development
@@ -21,7 +22,8 @@ mail-client/alpine 2.25.1 2.26: An easy to use text-based based mail and news cl
 mail-client/hiri 1.4.0.5: An email client for Exchange and Office 365
 mail-mta/fakesmtp-bin 2.0: Fake SMTP Server with GUI for testing emails in applications easily.
 media-gfx/sweethome3d-bin 6.6-r1: Sweet Home 3D is a free interior design application.
-media-sound/upplay 1.4.9-r2: A Qt-based UPnP audio Control point
+media-libs/qtmpris 1.0.6: MPRIS v.2 specification implementation for Qt and QML plugin.
+media-sound/upplay 1.4.9-r2 1.6.2: A Qt-based UPnP audio Control point
 net-im/SkypeExport 1.4.0: Cross-platform Skype history exporter written in C++
 net-im/signal-desktop-bin 5.58.0-r1: Allows you to send and receive messages of Signal Messenger on your computer
 net-misc/gdrive 3.0.10: Command line utility for interacting with Google Drive
