@@ -33,6 +33,5 @@ net-misc/pulseaudio-dlna 9999: A lightweight DLNA/UPNP/Chromecast streaming serv
 sci-geosciences/offroad 0.6_beta3 9999: Offline vector map display ported from OsmAnd
 sci-geosciences/skytraq-datalogger 9999: Tool to control Skytraq GPS data loggers.
 sci-physics/geigerlog 1.3.0: A Python based GUI program to work with GQ Electronic's Geiger counters
-sys-fs/geteltorito 0.6: Perl script which to extract El Torito boot images
 www-apps/fgallery 1.8.2: Static photo gallery generator
 x11-plugins/gkrellm-wifi 0.9.12: A GKrellM2 plug-in for monitoring the link quality of your wireless LAN cards
