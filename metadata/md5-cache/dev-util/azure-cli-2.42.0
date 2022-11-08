@@ -1,0 +1,16 @@
+BDEPEND=test? ( dev-libs/libffi dev-libs/openssl dev-python/azure-common[python_targets_python3_10(-)?] dev-python/azure-mgmt-resource[python_targets_python3_10(-)?] dev-python/colorama[python_targets_python3_10(-)?] dev-python/humanfriendly[python_targets_python3_10(-)?] dev-python/jmespath[python_targets_python3_10(-)?] dev-python/knack[python_targets_python3_10(-)?] dev-python/msal[python_targets_python3_10(-)?] dev-python/msal-extensions[python_targets_python3_10(-)?] dev-python/msrestazure[python_targets_python3_10(-)?] dev-python/pkginfo[python_targets_python3_10(-)?] dev-python/portalocker[python_targets_python3_10(-)?] ) python_targets_python3_10? ( >=dev-lang/python-3.10.4:3.10 ) >=dev-python/setuptools-65.3.0[python_targets_python3_10(-)?]
+DEFINED_PHASES=compile configure install prepare test
+DESCRIPTION=Microsoft Azure CLI
+EAPI=8
+HOMEPAGE=https://github.com/Azure/azure-cli
+INHERIT=distutils-r1
+IUSE=test python_targets_python3_10
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=dev-libs/libffi dev-libs/openssl dev-python/azure-common[python_targets_python3_10(-)?] dev-python/azure-mgmt-resource[python_targets_python3_10(-)?] dev-python/colorama[python_targets_python3_10(-)?] dev-python/humanfriendly[python_targets_python3_10(-)?] dev-python/jmespath[python_targets_python3_10(-)?] dev-python/knack[python_targets_python3_10(-)?] dev-python/msal[python_targets_python3_10(-)?] dev-python/msal-extensions[python_targets_python3_10(-)?] dev-python/msrestazure[python_targets_python3_10(-)?] dev-python/pkginfo[python_targets_python3_10(-)?] dev-python/portalocker[python_targets_python3_10(-)?] python_targets_python3_10? ( >=dev-lang/python-3.10.4:3.10 )
+REQUIRED_USE=|| ( python_targets_python3_10 )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/Azure/azure-cli/archive/refs/tags/azure-cli-2.42.0.tar.gz
+_eclasses_=multibuild	d26d81f242cb193d899a72bca423d0bd	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	b9fc5e97e886514e5132f50465185401	python-r1	2d51fd03931e743811ce30d198e4dcfd	distutils-r1	8c1ceb6b71a65547b0ea7bc901d906cb
+_md5_=67414b8f7243943c00fc0f27a1a34793
