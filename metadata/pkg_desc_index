@@ -10,18 +10,10 @@ dev-java/jnlp-api 6.0.18: JNLP API classes, repackaged from the icedtea-web fork
 dev-java/keystore-explorer 5.5.1: Java key-store management tool.
 dev-java/log4j 1.2.17-r3: A low-overhead robust logging package for Java
 dev-python/SoundFile 0.10.2: SoundFile is an audio library based on libsndfile, CFFI and NumPy.
-dev-python/adal 1.2.7: Library for authentication in Azure Active Directory
-dev-python/azure-mgmt-resource 21.2.1: Microsoft Azure Resource Management client library for Python
-dev-python/knack 0.10.0: A Python command line interface framework
-dev-python/msal 1.20.0: Microsoft Authentication Library (MSAL) for Python
-dev-python/msal-extensions 1.0.0: Microsoft Authentication Extensions for Python
-dev-python/msrestazure 0.6.4: AutoRest: Python Client Runtime - Azure Module
-dev-python/portalocker 2.6.0: A Python library for file locking.
 dev-python/pyroute2 0.5.14: A pure Python netlink and Linux network configuration library
 dev-python/sounddevice 0.4.1 0.4.4: Python bindings for PortAudio
 dev-qt/qtdbusextended 0.0.3: Extended DBus for Qt
 dev-tex/rmligs 0.87: Removes incorrectly used ligatures from LaTeX documents
-dev-util/azure-cli 2.42.0: Microsoft Azure CLI
 dev-util/idea 2022.1.4 2022.2.4: IntelliJ IDEA is an intelligent Java IDE
 dev-util/idea-ultimate 2018.1.0.181.4203.550: A complete toolset for web, mobile and enterprise development
 dev-util/jaspersoft-studio 6.3.1: Eclipse-based report development tool for JasperReports and JasperReports Server
