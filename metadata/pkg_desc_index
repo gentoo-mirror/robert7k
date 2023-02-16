@@ -1,5 +1,5 @@
 app-dicts/myspell-de 2017.01.12-r1: German (AT,CH,DE) dictionaries for myspell/hunspell
-app-i18n/transifex-client 1.3.1 1.6.4: The Transifex command-line client
+app-i18n/transifex-client 1.3.1 1.6.5: The Transifex command-line client
 app-misc/tws 9999: Interactive Brokers Trader Workstation TWS
 app-misc/xtrkcad 5.2.2: Model Railway CAD program
 app-shells/gradle-completion 1.4.1: Bash completions for Gradle
@@ -23,6 +23,7 @@ mail-client/alpine 2.25.1 2.26: An easy to use text-based based mail and news cl
 mail-client/hiri 1.4.0.5: An email client for Exchange and Office 365
 mail-mta/fakesmtp-bin 2.0: Fake SMTP Server with GUI for testing emails in applications easily.
 media-gfx/sweethome3d-bin 6.6-r1: Sweet Home 3D is a free interior design application.
+media-libs/qtav 1.12.0-r3: Multimedia playback framework based on Qt + FFmpeg
 media-libs/qtmpris 1.0.6: MPRIS v.2 specification implementation for Qt and QML plugin.
 media-sound/upplay 1.4.9-r2 1.6.4: A Qt-based UPnP audio Control point
 net-im/SkypeExport 1.4.0: Cross-platform Skype history exporter written in C++
