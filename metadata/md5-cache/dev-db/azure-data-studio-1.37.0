@@ -10,5 +10,5 @@ RDEPEND=dev-util/lttng-ust
 RESTRICT=strip mirror
 SLOT=0
 SRC_URI=https://azuredatastudio-update.azurewebsites.net/1.37.0/linux-x64/stable -> azure-data-studio-1.37.0.tar.gz
-_eclasses_=desktop	7eb20ad915a0a318176d51bc2508ff5c
+_eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d
 _md5_=7dbb148813ae72716618a0d139cb90fd
