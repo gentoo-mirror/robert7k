@@ -17,7 +17,7 @@ dev-tex/rmligs 0.87: Removes incorrectly used ligatures from LaTeX documents
 dev-util/idea 2022.1.4 2022.2.4 2022.3.2: IntelliJ IDEA is an intelligent Java IDE
 dev-util/idea-ultimate 2018.1.0.181.4203.550: A complete toolset for web, mobile and enterprise development
 dev-util/jaspersoft-studio 6.3.1: Eclipse-based report development tool for JasperReports and JasperReports Server
-dev-util/kubelogin 0.0.26: A Kubernetes credential (exec) plugin implementing azure authentication
+dev-util/kubelogin 0.0.27: A Kubernetes credential (exec) plugin implementing azure authentication
 games-arcade/openjazz 20190106: Free engine for Jazz Jackrabbit game
 mail-client/alpine 2.25.1 2.26: An easy to use text-based based mail and news client
 mail-client/hiri 1.4.0.5: An email client for Exchange and Office 365
@@ -27,7 +27,7 @@ media-libs/qtav 1.12.0-r3: Multimedia playback framework based on Qt + FFmpeg
 media-libs/qtmpris 1.0.6: MPRIS v.2 specification implementation for Qt and QML plugin.
 media-sound/upplay 1.4.9-r2 1.6.4: A Qt-based UPnP audio Control point
 net-im/SkypeExport 1.4.0: Cross-platform Skype history exporter written in C++
-net-im/signal-desktop-bin 6.6.0: Allows you to send and receive messages of Signal Messenger on your computer
+net-im/signal-desktop-bin 6.7.0: Allows you to send and receive messages of Signal Messenger on your computer
 net-misc/gdrive 3.0.10: Command line utility for interacting with Google Drive
 net-misc/ngrok 3.1.1: programmable network edge
 net-misc/postman-bin 10.9.3: Postman is an API platform for building and using APIs.
