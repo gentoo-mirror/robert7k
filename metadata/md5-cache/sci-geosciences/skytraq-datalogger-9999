@@ -10,5 +10,5 @@ LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=net-misc/curl
 SLOT=0
-_eclasses_=git-r3	c57c50c922e121043788de0b40ada60a
+_eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676
 _md5_=8a9df0053948b3be3189e849cd1e776e
