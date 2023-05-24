@@ -3,7 +3,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_{8,9,10} )
+PYTHON_COMPAT=( python3_{10,11} )
 PYTHON_REQ_USE="sqlite"
 
 inherit desktop eutils python-single-r1
@@ -30,7 +30,7 @@ RDEPEND="${PYTHON_DEPS}
 	dev-python/paho-mqtt[${PYTHON_USEDEP}]
 	dev-python/pyaudio[${PYTHON_USEDEP}]
 	dev-python/sounddevice[${PYTHON_USEDEP}]
-	dev-python/SoundFile[${PYTHON_USEDEP}]
+	dev-python/soundfile[${PYTHON_USEDEP}]
 	')"
 DEPEND="${RDEPEND}"
 
@@ -46,7 +46,7 @@ src_prepare() {
 }
 
 src_install() {
-	MANUAL="${S}/GeigerLog-Manual-v$(ver_cut 1-2).pdf"
+	MANUAL="${S}/GeigerLog-Manual-v1.4.0.pdf"
 	dodoc ${MANUAL}
 	rm ${MANUAL}
 	rm -r "${S}/data"
