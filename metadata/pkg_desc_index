@@ -31,6 +31,6 @@ net-misc/ngrok 3.1.1: programmable network edge
 net-misc/postman-bin 10.9.3: Postman is an API platform for building and using APIs.
 sci-geosciences/offroad 0.6_beta3 9999: Offline vector map display ported from OsmAnd
 sci-geosciences/skytraq-datalogger 9999: Tool to control Skytraq GPS data loggers.
-sci-physics/geigerlog 1.3.0 1.4.1: A Python based GUI program to work with GQ Electronic's Geiger counters
+sci-physics/geigerlog 1.4.1-r1: A Python based GUI program to work with GQ Electronic's Geiger counters
 www-apps/fgallery 1.9.1: Static photo gallery generator
 x11-plugins/gkrellm-wifi 0.9.12: A GKrellM2 plug-in for monitoring the link quality of your wireless LAN cards
