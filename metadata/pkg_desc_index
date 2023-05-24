@@ -8,8 +8,8 @@ dev-db/sqlworkbench 128-r1: Free, DBMS-independent, cross-platform SQL query too
 dev-java/jnlp-api 6.0.18: JNLP API classes, repackaged from the icedtea-web fork of netx
 dev-java/keystore-explorer 5.5.1: Java key-store management tool.
 dev-java/log4j 1.2.17-r3: A low-overhead robust logging package for Java
-dev-python/SoundFile 0.10.2: SoundFile is an audio library based on libsndfile, CFFI and NumPy.
 dev-python/sounddevice 0.4.4 0.4.6: Python bindings for PortAudio
+dev-python/soundfile 0.12.1: soundfile is an audio library based on libsndfile, CFFI and NumPy.
 dev-qt/qtdbusextended 0.0.3: Extended DBus for Qt
 dev-tex/rmligs 0.87: Removes incorrectly used ligatures from LaTeX documents
 dev-util/idea 2022.1.4 2022.2.4 2022.3.3-r1 2023.1.2: IntelliJ IDEA is an intelligent Java IDE
