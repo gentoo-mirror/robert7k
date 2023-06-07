@@ -25,7 +25,7 @@ media-libs/qtav 1.12.0-r3: Multimedia playback framework based on Qt + FFmpeg
 media-libs/qtmpris 1.0.6: MPRIS v.2 specification implementation for Qt and QML plugin.
 media-sound/upplay 1.6.6: A Qt-based UPnP audio Control point
 net-im/SkypeExport 1.4.0: Cross-platform Skype history exporter written in C++
-net-im/signal-desktop-bin 6.20.1: Allows you to send and receive messages of Signal Messenger on your computer
+net-im/signal-desktop-bin 6.20.0: Allows you to send and receive messages of Signal Messenger on your computer
 net-misc/gdrive 3.0.10: Command line utility for interacting with Google Drive
 net-misc/ngrok 3.1.1: programmable network edge
 net-misc/postman-bin 10.9.3: Postman is an API platform for building and using APIs.
