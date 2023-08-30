@@ -6,18 +6,22 @@ app-text/pdfposter 0.8.1 0.8.1-r1: Scale and tile PDF images/pages to print on m
 dev-db/azure-data-studio 1.37.0: Azure Data Studio is a cross-platform database tool for data professionals
 dev-db/sqlworkbench 128-r1: Free, DBMS-independent, cross-platform SQL query tool.
 dev-java/jnlp-api 6.0.18: JNLP API classes, repackaged from the icedtea-web fork of netx
+dev-java/keystore-explorer 5.5.1: Java key-store management tool.
 dev-java/log4j 1.2.17-r3: A low-overhead robust logging package for Java
 dev-python/sounddevice 0.4.4 0.4.6: Python bindings for PortAudio
 dev-python/soundfile 0.12.1: soundfile is an audio library based on libsndfile, CFFI and NumPy.
 dev-qt/qtdbusextended 0.0.3: Extended DBus for Qt
 dev-tex/rmligs 0.87: Removes incorrectly used ligatures from LaTeX documents
+dev-util/idea 2022.1.4 2022.2.4 2022.3.3-r1 2023.1.5 2023.2.1: IntelliJ IDEA is an intelligent Java IDE
 dev-util/idea-ultimate 2018.1.0.181.4203.550: A complete toolset for web, mobile and enterprise development
 dev-util/jaspersoft-studio 6.3.1: Eclipse-based report development tool for JasperReports and JasperReports Server
 dev-util/kubelogin 0.0.31: A Kubernetes credential (exec) plugin implementing azure authentication
 games-arcade/openjazz 20190106: Free engine for Jazz Jackrabbit game
 mail-client/alpine 2.25.1 2.26: An easy to use text-based based mail and news client
 mail-client/hiri 1.4.0.5: An email client for Exchange and Office 365
+mail-mta/fakesmtp-bin 2.0: Fake SMTP Server with GUI for testing emails in applications easily.
 media-gfx/digikam 8.1.0-r1: Digital photo management application
+media-gfx/sweethome3d-bin 6.6-r1: Sweet Home 3D is a free interior design application.
 media-libs/qtmpris 1.0.6: MPRIS v.2 specification implementation for Qt and QML plugin.
 media-sound/upplay 1.6.6: A Qt-based UPnP audio Control point
 net-im/SkypeExport 1.4.0: Cross-platform Skype history exporter written in C++
@@ -27,5 +31,6 @@ net-misc/ngrok 3.1.1: programmable network edge
 net-misc/postman-bin 10.15.0: Postman is an API platform for building and using APIs.
 sci-geosciences/offroad 0.6_beta3 9999: Offline vector map display ported from OsmAnd
 sci-geosciences/skytraq-datalogger 9999: Tool to control Skytraq GPS data loggers.
+sci-physics/geigerlog 1.4.1-r1: A Python based GUI program to work with GQ Electronic's Geiger counters
 www-apps/fgallery 1.9.1: Static photo gallery generator
 x11-plugins/gkrellm-wifi 0.9.12: A GKrellM2 plug-in for monitoring the link quality of your wireless LAN cards
