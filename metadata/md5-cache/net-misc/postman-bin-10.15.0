@@ -1,0 +1,12 @@
+DEFINED_PHASES=install
+DESCRIPTION=Postman is an API platform for building and using APIs.
+EAPI=8
+HOMEPAGE=https://www.getpostman.com/
+INHERIT=desktop
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RESTRICT=strip mirror
+SLOT=0
+SRC_URI=https://dl.pstmn.io/download/version/10.15.0/linux64 -> postman-bin-10.15.0.tar.gz
+_eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d
+_md5_=96f9a9f215552e6b25c028d0d9fb7af5
