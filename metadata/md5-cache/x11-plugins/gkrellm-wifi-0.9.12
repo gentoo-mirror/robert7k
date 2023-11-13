@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=>=app-admin/gkrellm-2.1.12 >=net-wireless/wireless-tools-22
 SLOT=0
 SRC_URI=https://github.com/tecknicaltom/gkrellm-wifi/archive/0.9.12.zip
-_eclasses_=multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	edeef89edaf21d30225d31702ab117ac
+_eclasses_=multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc
 _md5_=98eca089032d5a18b7bc0c4947e0222f
