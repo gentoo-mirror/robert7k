@@ -27,7 +27,7 @@ media-sound/upplay 1.6.6: A Qt-based UPnP audio Control point
 net-im/SkypeExport 1.4.0: Cross-platform Skype history exporter written in C++
 net-im/signal-desktop-bin 6.39.0: Allows you to send and receive messages of Signal Messenger on your computer
 net-misc/gdrive 3.0.10: Command line utility for interacting with Google Drive
-net-misc/ngrok 3.1.1: programmable network edge
+net-misc/ngrok 3.4.0: programmable network edge
 net-misc/postman-bin 10.15.0 10.19.0: Postman is an API platform for building and using APIs.
 sci-geosciences/offroad 0.6_beta3 9999: Offline vector map display ported from OsmAnd
 sci-geosciences/skytraq-datalogger 9999: Tool to control Skytraq GPS data loggers.
