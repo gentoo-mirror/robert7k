@@ -25,7 +25,7 @@ media-gfx/sweethome3d-bin 6.6-r1: Sweet Home 3D is a free interior design applic
 media-libs/qtmpris 1.0.6: MPRIS v.2 specification implementation for Qt and QML plugin.
 media-sound/upplay 1.6.6: A Qt-based UPnP audio Control point
 net-im/SkypeExport 1.4.0: Cross-platform Skype history exporter written in C++
-net-im/signal-desktop-bin 6.41.0: Allows you to send and receive messages of Signal Messenger on your computer
+net-im/signal-desktop-bin 6.42.0: Allows you to send and receive messages of Signal Messenger on your computer
 net-misc/gdrive 3.0.10: Command line utility for interacting with Google Drive
 net-misc/ngrok 3.4.0: programmable network edge
 net-misc/postman-bin 10.15.0 10.19.0: Postman is an API platform for building and using APIs.
