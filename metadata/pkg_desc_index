@@ -15,7 +15,7 @@ dev-qt/qtdbusextended 0.0.3: Extended DBus for Qt
 dev-tex/rmligs 0.87: Removes incorrectly used ligatures from LaTeX documents
 dev-util/idea 2023.3.2: IntelliJ IDEA is an intelligent Java IDE
 dev-util/jaspersoft-studio 6.3.1: Eclipse-based report development tool for JasperReports and JasperReports Server
-dev-util/kubelogin 0.0.34: A Kubernetes credential (exec) plugin implementing azure authentication
+dev-util/kubelogin 0.1.0: A Kubernetes credential (exec) plugin implementing azure authentication
 games-arcade/openjazz 20190106: Free engine for Jazz Jackrabbit game
 mail-client/alpine 2.25.1 2.26: An easy to use text-based based mail and news client
 mail-client/hiri 1.4.0.5: An email client for Exchange and Office 365
@@ -24,9 +24,11 @@ media-gfx/digikam 8.1.0-r1: Digital photo management application
 media-gfx/sweethome3d-bin 6.6-r1: Sweet Home 3D is a free interior design application.
 media-libs/qtmpris 1.0.6: MPRIS v.2 specification implementation for Qt and QML plugin.
 media-sound/upplay 1.7.2: A Qt-based UPnP audio Control point
+net-dialup/roger-router 2.4.90: A graphical user interface for Fritz!Box routers.
 net-im/SkypeExport 1.4.0: Cross-platform Skype history exporter written in C++
 net-im/signal-desktop-bin 6.42.1: Allows you to send and receive messages of Signal Messenger on your computer
 net-libs/libnpupnp 6.0.0: A C++ base UPnP library, derived from Portable UPnP, a.k.a libupnp
+net-libs/librm 2.3.4: Offers FRITZ!Box related core functionality.
 net-libs/libupnpp 0.25.0: The libupnpp C++ library wraps libupnp for easier use by upmpdcli and upplay
 net-misc/gdrive 3.0.10: Command line utility for interacting with Google Drive
 net-misc/ngrok 3.4.0: programmable network edge
