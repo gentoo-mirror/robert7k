@@ -5,5 +5,5 @@ HOMEPAGE=https://ngrok.com
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 SLOT=0
-SRC_URI=https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz -> ngrok-3.4.0.tgz
+SRC_URI=https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz -> ngrok-3.8.0.tgz
 _md5_=ecdda6d3dbb65d3aa8a90666dab04505
