@@ -13,7 +13,7 @@ dev-python/sounddevice 0.4.6: Python bindings for PortAudio
 dev-python/soundfile 0.12.1: soundfile is an audio library based on libsndfile, CFFI and NumPy.
 dev-qt/qtdbusextended 0.0.3: Extended DBus for Qt
 dev-tex/rmligs 0.87: Removes incorrectly used ligatures from LaTeX documents
-dev-util/idea 2023.3.5: IntelliJ IDEA is an intelligent Java IDE
+dev-util/idea 2023.3.6: IntelliJ IDEA is an intelligent Java IDE
 dev-util/jaspersoft-studio 6.3.1: Eclipse-based report development tool for JasperReports and JasperReports Server
 dev-util/kubelogin 0.1.1: A Kubernetes credential (exec) plugin implementing azure authentication
 games-arcade/openjazz 20190106: Free engine for Jazz Jackrabbit game
