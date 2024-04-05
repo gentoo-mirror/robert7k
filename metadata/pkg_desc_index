@@ -8,6 +8,7 @@ dev-db/azure-data-studio 1.37.0: Azure Data Studio is a cross-platform database 
 dev-db/sqlworkbench 128-r1: Free, DBMS-independent, cross-platform SQL query tool.
 dev-elixir/elixir-ls 0.20.0: Elixir Language Server and Debug Adapter
 dev-elixir/hex 2.0.5: Package manager for the Erlang VM
+dev-elixir/lexical 0.5.2: Next-generation language server for Elixir
 dev-java/jnlp-api 6.0.18: JNLP API classes, repackaged from the icedtea-web fork of netx
 dev-java/keystore-explorer 5.5.3: Java key-store management tool.
 dev-java/log4j 1.2.17-r3: A low-overhead robust logging package for Java
