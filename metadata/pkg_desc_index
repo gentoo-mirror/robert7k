@@ -6,6 +6,8 @@ app-shells/gradle-completion 1.4.1: Bash completions for Gradle
 app-text/pdfposter 0.8.1 0.8.1-r1: Scale and tile PDF images/pages to print on multiple pages.
 dev-db/azure-data-studio 1.37.0: Azure Data Studio is a cross-platform database tool for data professionals
 dev-db/sqlworkbench 128-r1: Free, DBMS-independent, cross-platform SQL query tool.
+dev-elixir/elixir-ls 0.20.0: Elixir Language Server and Debug Adapter
+dev-elixir/hex 2.0.5: Package manager for the Erlang VM
 dev-java/jnlp-api 6.0.18: JNLP API classes, repackaged from the icedtea-web fork of netx
 dev-java/keystore-explorer 5.5.3: Java key-store management tool.
 dev-java/log4j 1.2.17-r3: A low-overhead robust logging package for Java
@@ -16,6 +18,7 @@ dev-tex/rmligs 0.87: Removes incorrectly used ligatures from LaTeX documents
 dev-util/idea 2023.3.6 2024.1: IntelliJ IDEA is an intelligent Java IDE
 dev-util/jaspersoft-studio 6.3.1: Eclipse-based report development tool for JasperReports and JasperReports Server
 dev-util/kubelogin 0.1.1: A Kubernetes credential (exec) plugin implementing azure authentication
+dev-util/typescript-language-server 4.2.0: TypeScript & JavaScript Language Server
 games-arcade/openjazz 20190106: Free engine for Jazz Jackrabbit game
 mail-client/alpine 2.25.1 2.26: An easy to use text-based based mail and news client
 mail-client/hiri 1.4.0.5: An email client for Exchange and Office 365

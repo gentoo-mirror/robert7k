@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=dev-lang/elixir dev-elixir/hex
+DESCRIPTION=Elixir Language Server and Debug Adapter
+EAPI=8
+HOMEPAGE=https://elixir-lsp.github.io/elixir-ls/ https://github.com/elixir-lsp/elixir-ls
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=dev-lang/elixir dev-elixir/hex
+SLOT=0
+SRC_URI=https://github.com/elixir-lsp/elixir-ls/archive/refs/tags/v0.20.0.tar.gz -> elixir-ls-0.20.0.tar.gz https://gitlab.com/api/v4/projects/35204985/packages/generic/elixir-ls/0.20.0/elixir-ls-0.20.0-deps.tar.bz
+_md5_=453e1faad17eb125c1d11d3153c7e1e4
