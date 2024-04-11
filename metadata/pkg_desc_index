@@ -37,6 +37,7 @@ net-libs/libupnpp 0.25.0: The libupnpp C++ library wraps libupnp for easier use 
 net-misc/gdrive 3.0.10: Command line utility for interacting with Google Drive
 net-misc/ngrok 3.8.0: programmable network edge
 net-misc/postman-bin 10.15.0 10.19.0: Postman is an API platform for building and using APIs.
+net-vpn/anyconnect 4.10.07061: Cisco AnyConnect Client
 sci-geosciences/offroad 0.6_beta3 9999: Offline vector map display ported from OsmAnd
 sci-geosciences/skytraq-datalogger 9999: Tool to control Skytraq GPS data loggers.
 sci-physics/geigerlog 1.4.1-r1: A Python based GUI program to work with GQ Electronic's Geiger counters
