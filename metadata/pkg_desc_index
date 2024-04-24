@@ -1,6 +1,6 @@
 app-dicts/leo-cli 0.36: A simple command line tool for http://dict.leo.org
 app-dicts/myspell-de 2017.01.12-r1: German (AT,CH,DE) dictionaries for myspell/hunspell
-app-i18n/transifex-client 1.6.10: The Transifex command-line client
+app-i18n/transifex-client 1.6.11: The Transifex command-line client
 app-misc/xtrkcad 5.2.2: Model Railway CAD program
 app-shells/gradle-completion 1.4.1: Bash completions for Gradle
 app-text/pdfposter 0.8.1 0.8.1-r1: Scale and tile PDF images/pages to print on multiple pages.
@@ -35,7 +35,7 @@ net-im/signal-desktop-bin 7.5.1: Allows you to send and receive messages of Sign
 net-libs/libnpupnp 6.0.0: A C++ base UPnP library, derived from Portable UPnP, a.k.a libupnp
 net-libs/librm 2.3.4: Offers FRITZ!Box related core functionality.
 net-libs/libupnpp 0.25.0: The libupnpp C++ library wraps libupnp for easier use by upmpdcli and upplay
-net-misc/gdrive 3.0.10: Command line utility for interacting with Google Drive
+net-misc/gdrive 3.0.13: Command line utility for interacting with Google Drive
 net-misc/ngrok 3.8.0: programmable network edge
 net-misc/postman-bin 10.15.0 10.19.0: Postman is an API platform for building and using APIs.
 net-vpn/anyconnect 4.10.07061: Cisco AnyConnect Client
