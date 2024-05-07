@@ -9,6 +9,7 @@ dev-db/sqlworkbench 130: Free, DBMS-independent, cross-platform SQL query tool.
 dev-elixir/elixir-ls 0.20.0: Elixir Language Server and Debug Adapter
 dev-elixir/hex 2.0.5: Package manager for the Erlang VM
 dev-elixir/lexical 0.5.2: Next-generation language server for Elixir
+dev-java/j2objc-annotations 2.8-r1: Annotations for the J2ObjC Java to Objective-C translator
 dev-java/jnlp-api 6.0.18: JNLP API classes, repackaged from the icedtea-web fork of netx
 dev-java/keystore-explorer 5.5.3: Java key-store management tool.
 dev-java/log4j 1.2.17-r3: A low-overhead robust logging package for Java
@@ -36,6 +37,7 @@ net-im/signal-desktop-bin 7.7.0: Allows you to send and receive messages of Sign
 net-libs/libnpupnp 6.0.0: A C++ base UPnP library, derived from Portable UPnP, a.k.a libupnp
 net-libs/librm 2.3.4: Offers FRITZ!Box related core functionality.
 net-libs/libupnpp 0.25.0: The libupnpp C++ library wraps libupnp for easier use by upmpdcli and upplay
+net-libs/nodejs 18.18.2: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-misc/ngrok 3.8.0: programmable network edge
 net-misc/postman-bin 10.15.0 10.19.0: Postman is an API platform for building and using APIs.
 net-vpn/anyconnect 4.10.07061: Cisco AnyConnect Client
