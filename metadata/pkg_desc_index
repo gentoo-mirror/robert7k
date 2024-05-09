@@ -5,7 +5,7 @@ app-misc/xtrkcad 5.2.2: Model Railway CAD program
 app-shells/gradle-completion 1.4.1: Bash completions for Gradle
 app-text/pdfposter 0.8.1 0.8.1-r1: Scale and tile PDF images/pages to print on multiple pages.
 dev-db/azure-data-studio 1.37.0: Azure Data Studio is a cross-platform database tool for data professionals
-dev-db/sqlworkbench 130: Free, DBMS-independent, cross-platform SQL query tool.
+dev-db/sqlworkbench 131: Free, DBMS-independent, cross-platform SQL query tool.
 dev-elixir/elixir-ls 0.20.0: Elixir Language Server and Debug Adapter
 dev-elixir/hex 2.0.5: Package manager for the Erlang VM
 dev-elixir/lexical 0.5.2: Next-generation language server for Elixir
