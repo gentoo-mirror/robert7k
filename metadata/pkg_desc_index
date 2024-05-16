@@ -1,6 +1,6 @@
 app-dicts/leo-cli 0.36: A simple command line tool for http://dict.leo.org
 app-dicts/myspell-de 2017.01.12-r1: German (AT,CH,DE) dictionaries for myspell/hunspell
-app-i18n/transifex-client 1.6.11: The Transifex command-line client
+app-i18n/transifex-client 1.6.12: The Transifex command-line client
 app-misc/xtrkcad 5.2.2: Model Railway CAD program
 app-shells/gradle-completion 1.4.1: Bash completions for Gradle
 app-text/pdfposter 0.8.1 0.8.1-r1: Scale and tile PDF images/pages to print on multiple pages.
@@ -33,7 +33,7 @@ media-sound/amarok 3.0.0: Advanced audio player based on KDE frameworks
 media-sound/upplay 1.7.2: A Qt-based UPnP audio Control point
 net-dialup/roger-router 2.4.90: A graphical user interface for Fritz!Box routers.
 net-im/SkypeExport 1.4.0: Cross-platform Skype history exporter written in C++
-net-im/signal-desktop-bin 7.8.0: Allows you to send and receive messages of Signal Messenger on your computer
+net-im/signal-desktop-bin 7.9.0: Allows you to send and receive messages of Signal Messenger on your computer
 net-libs/libnpupnp 6.0.0: A C++ base UPnP library, derived from Portable UPnP, a.k.a libupnp
 net-libs/librm 2.3.4: Offers FRITZ!Box related core functionality.
 net-libs/libupnpp 0.25.0: The libupnpp C++ library wraps libupnp for easier use by upmpdcli and upplay
