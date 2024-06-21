@@ -1,5 +1,6 @@
 app-dicts/leo-cli 0.36: A simple command line tool for http://dict.leo.org
 app-dicts/myspell-de 2017.01.12-r1: German (AT,CH,DE) dictionaries for myspell/hunspell
+app-editors/zed 0.140.5: The fast, collaborative code editor.
 app-i18n/transifex-client 1.6.12: The Transifex command-line client
 app-misc/xtrkcad 5.2.2: Model Railway CAD program
 app-shells/gradle-completion 1.4.1: Bash completions for Gradle
@@ -7,7 +8,7 @@ app-text/pdfposter 0.8.1 0.8.1-r1: Scale and tile PDF images/pages to print on m
 dev-db/azure-data-studio 1.37.0: Azure Data Studio is a cross-platform database tool for data professionals
 dev-db/sqlworkbench 131: Free, DBMS-independent, cross-platform SQL query tool.
 dev-elixir/elixir-ls 0.20.0: Elixir Language Server and Debug Adapter
-dev-elixir/hex 2.0.5: Package manager for the Erlang VM
+dev-elixir/hex 2.1.1: Package manager for the Erlang VM
 dev-elixir/lexical 0.5.2: Next-generation language server for Elixir
 dev-java/j2objc-annotations 2.8-r1: Annotations for the J2ObjC Java to Objective-C translator
 dev-java/jnlp-api 6.0.18: JNLP API classes, repackaged from the icedtea-web fork of netx
@@ -32,7 +33,7 @@ media-sound/amarok 3.0.0: Advanced audio player based on KDE frameworks
 media-sound/upplay 1.7.3: A Qt-based UPnP audio Control point
 net-dialup/roger-router 2.4.90: A graphical user interface for Fritz!Box routers.
 net-im/SkypeExport 1.4.0: Cross-platform Skype history exporter written in C++
-net-im/signal-desktop-bin 7.11.1: Allows you to send and receive messages of Signal Messenger on your computer
+net-im/signal-desktop-bin 7.13.0: Allows you to send and receive messages of Signal Messenger on your computer
 net-libs/libnpupnp 6.0.0: A C++ base UPnP library, derived from Portable UPnP, a.k.a libupnp
 net-libs/librm 2.3.4: Offers FRITZ!Box related core functionality.
 net-libs/libupnpp 0.25.0: The libupnpp C++ library wraps libupnp for easier use by upmpdcli and upplay
