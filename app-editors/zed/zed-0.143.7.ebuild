@@ -1133,12 +1133,6 @@ src_prepare() {
 	sed -e "s#${PF_GIT}#${PF_PATH}#" \
 		-e "s#${TS_GIT}#${TS_PATH}#" \
 		-i "${S}/Cargo.toml" || die "Cargo fetch workaround failed"
-
-	export DO_STARTUP_NOTIFY="true"
-	export APP_ICON="zed"
-	export APP_NAME="Zed"
-	# sys-devel/gettext
-	envsubst < "crates/zed/resources/zed.desktop.in" > zed.desktop || die
 }
 
 src_configure() {
@@ -1161,5 +1155,5 @@ src_install() {
 
 	newicon -s 512 crates/zed/resources/app-icon.png zed.png
 	newicon -s 1024 crates/zed/resources/app-icon@2x.png zed.png
-	domenu "${S}/zed.desktop"
+	make_desktop_entry /usr/bin/zed Zed zed.png TextEditor;Development;IDE
 }
