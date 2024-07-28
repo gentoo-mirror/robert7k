@@ -10,5 +10,5 @@ LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=>=virtual/jre-11 >=dev-java/java-config-2.2.0-r3
 SLOT=0
-_eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d	git-r3	875eb471682d3e1f18da124be97dcc81	java-utils-2	2f361564ef86de2315882621bf05eb9c	java-pkg-2	b6d755b4f6afabfd933932be28b46368	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	java-ant-2	d3f6ffc6629499cbc0d4cd71b9d7e7dc
+_eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d	git-r3	875eb471682d3e1f18da124be97dcc81	java-utils-2	098b99f0d5d0caeed4c24a9334375dcd	java-pkg-2	b6d755b4f6afabfd933932be28b46368	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	java-ant-2	d3f6ffc6629499cbc0d4cd71b9d7e7dc
 _md5_=824518a5b6e9d4359e45f019f316cbcd
