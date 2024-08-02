@@ -22,7 +22,7 @@ dev-util/idea 2023.3.6 2024.1.4: IntelliJ IDEA is an intelligent Java IDE
 dev-util/kubelogin 0.1.3: A Kubernetes credential (exec) plugin implementing azure authentication
 dev-util/typescript-language-server 4.2.0: TypeScript & JavaScript Language Server
 games-arcade/openjazz 20190106: Free engine for Jazz Jackrabbit game
-mail-client/alpine 2.25.1 2.26: An easy to use text-based based mail and news client
+mail-client/alpine 2.26: An easy to use text-based based mail and news client
 mail-client/hiri 1.4.0.5: An email client for Exchange and Office 365
 mail-mta/fakesmtp-bin 2.0: Fake SMTP Server with GUI for testing emails in applications easily.
 media-gfx/digikam 8.2.0-r1 8.3.0-r1 8.4.0-r1: Digital photo management application
