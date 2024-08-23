@@ -19,7 +19,7 @@ dev-python/soundfile 0.12.1: soundfile is an audio library based on libsndfile, 
 dev-qt/qtdbusextended 0.0.3: Extended DBus for Qt
 dev-tex/rmligs 0.87: Removes incorrectly used ligatures from LaTeX documents
 dev-util/idea 2024.1.5 2024.2: IntelliJ IDEA is an intelligent Java IDE
-dev-util/kubelogin 0.1.3: A Kubernetes credential (exec) plugin implementing azure authentication
+dev-util/kubelogin 0.1.4: A Kubernetes credential (exec) plugin implementing azure authentication
 dev-util/typescript-language-server 4.2.0: TypeScript & JavaScript Language Server
 games-arcade/openjazz 20190106: Free engine for Jazz Jackrabbit game
 mail-client/alpine 2.26-r4: An easy to use text-based based mail and news client
@@ -31,7 +31,7 @@ media-gfx/sweethome3d-bin 6.6-r1: Sweet Home 3D is a free interior design applic
 media-libs/qtmpris 1.0.6: MPRIS v.2 specification implementation for Qt and QML plugin.
 media-sound/amarok 3.0.0: Advanced audio player based on KDE frameworks
 media-sound/upplay 1.7.3: A Qt-based UPnP audio Control point
-net-dialup/roger-router 2.4.90: A graphical user interface for Fritz!Box routers.
+net-dialup/roger-router 2.4.90-r1: A graphical user interface for Fritz!Box routers.
 net-im/SkypeExport 1.4.0: Cross-platform Skype history exporter written in C++
 net-im/signal-desktop-bin 7.21.0: Allows you to send and receive messages of Signal Messenger on your computer
 net-im/teams-for-linux 1.9.2: Unofficial Microsoft Teams for Linux client
