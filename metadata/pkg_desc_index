@@ -34,7 +34,7 @@ media-sound/upplay 1.7.3: A Qt-based UPnP audio Control point
 net-dialup/roger-router 2.4.90-r1: A graphical user interface for Fritz!Box routers.
 net-im/SkypeExport 1.4.0: Cross-platform Skype history exporter written in C++
 net-im/signal-desktop-bin 7.21.0: Allows you to send and receive messages of Signal Messenger on your computer
-net-im/teams-for-linux 1.9.3: Unofficial Microsoft Teams for Linux client
+net-im/teams-for-linux 1.9.4: Unofficial Microsoft Teams for Linux client
 net-libs/libnpupnp 6.0.0: A C++ base UPnP library, derived from Portable UPnP, a.k.a libupnp
 net-libs/librm 2.3.4: Offers FRITZ!Box related core functionality.
 net-libs/libupnpp 0.25.0: The libupnpp C++ library wraps libupnp for easier use by upmpdcli and upplay
