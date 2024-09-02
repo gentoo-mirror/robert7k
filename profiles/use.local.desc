@@ -2,10 +2,3 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-media-gfx/digikam:addressbook - Enable akonadi contact integration
-media-gfx/digikam:imagemagick - Enable support for additional image formats such as XCF, FITS, HEIC etc.
-media-gfx/digikam:lensfun - Enable support for media-libs/lensfun
-media-gfx/digikam:marble - Enable support for geolocation using kde-apps/marble
-media-gfx/digikam:mediaplayer - Enable the built-enable mediaplayer to allow video and audio playback
-media-gfx/digikam:panorama - Build the panorama plugin which requires media-gfx/hugin
-media-gfx/digikam:semantic-desktop - Enable kde-frameworks/kfilemetadata support
