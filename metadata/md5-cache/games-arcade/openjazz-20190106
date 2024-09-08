@@ -10,5 +10,5 @@ LICENSE=GPL-2
 RDEPEND=>=media-libs/libsdl-1.2 media-libs/libmodplug
 SLOT=0
 SRC_URI=https://github.com/AlisterT/openjazz/archive/refs/tags/20190106.zip -> openjazz-20190106.zip jazz.zip xmas? ( jazzxmas.zip )
-_eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d
+_eclasses_=desktop	56973babb9c5f19cab0eeb53ece644c6
 _md5_=d6d793ef5d5bb43c30c6be0b475e1815
