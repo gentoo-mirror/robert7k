@@ -18,7 +18,6 @@ declare -A GIT_CRATES=(
 	[font-kit]='https://github.com/zed-industries/font-kit;40391b7c0041d8a8572af2afa3de32ae088f0120;font-kit-%commit%'
 	[lsp-types]='https://github.com/zed-industries/lsp-types;72357d6f6d212bdffba3b5ef4b31d8ca856058e7;lsp-types-%commit%'
 	[nvim-rs]='https://github.com/KillTheMule/nvim-rs;69500bae73b8b3f02a05b7bee621a0d0e633da6c;nvim-rs-%commit%'
-	[protols-tree-sitter-proto]='https://github.com/zed-industries/tree-sitter-proto;0848bd30a64be48772e15fbb9d5ba8c0cc5772ad;tree-sitter-proto-%commit%'
 	[tree-sitter-gomod]='https://github.com/zed-industries/tree-sitter-go-mod;a9aea5e358cde4d0f8ff20b7bc4fa311e359c7ca;tree-sitter-go-mod-%commit%'
 	[tree-sitter-gowork]='https://github.com/zed-industries/tree-sitter-go-work;acb0617bf7f4fda02c6217676cc64acb89536dc7;tree-sitter-go-work-%commit%'
 	[tree-sitter-heex]='https://github.com/zed-industries/tree-sitter-heex;1dd45142fbb05562e35b2040c6129c9bca346592;tree-sitter-heex-%commit%'
@@ -84,7 +83,7 @@ BDEPEND="
 	')
 "
 
-QA_FLAGS_IGNORED="usr/bin/zed"
+QA_FLAGS_IGNORED="usr/bin/zedit"
 
 pkg_setup() {
 	if tc-is-gcc; then
