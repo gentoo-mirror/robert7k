@@ -42,7 +42,7 @@ net-misc/postman-bin 10.15.0 10.19.0: Postman is an API platform for building an
 net-vpn/anyconnect 4.10.07061: Cisco AnyConnect Client
 sci-geosciences/offroad 0.6_beta3 9999: Offline vector map display ported from OsmAnd
 sci-geosciences/skytraq-datalogger 9999: Tool to control Skytraq GPS data loggers.
-sci-physics/geigerlog 1.4.1-r1 1.5.0: A Python based GUI program to work with GQ Electronic's Geiger counters
+sci-physics/geigerlog 1.5.0: A Python based GUI program to work with GQ Electronic's Geiger counters
 www-apps/fgallery 1.9.1: Static photo gallery generator
 x11-misc/dotool 1.5: Reads actions from stdin and simulates keyboard/mouse input via uinput
 x11-plugins/gkrellm-wifi 0.9.12: A GKrellM2 plug-in for monitoring the link quality of your wireless LAN cards
