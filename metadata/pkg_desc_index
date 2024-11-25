@@ -24,7 +24,6 @@ games-arcade/openjazz 20190106: Free engine for Jazz Jackrabbit game
 mail-client/alpine 2.26-r4: An easy to use text-based based mail and news client
 mail-client/hiri 1.4.0.5: An email client for Exchange and Office 365
 mail-mta/fakesmtp-bin 2.0-r1: Fake SMTP Server with GUI for testing emails in applications easily.
-media-gfx/superslicer 2.5.59.8: A mesh slicer to generate G-code for fused-filament-fabrication (3D printers)
 media-gfx/sweethome3d-bin 6.6-r1: Sweet Home 3D is a free interior design application.
 media-libs/qtmpris 1.0.6: MPRIS v.2 specification implementation for Qt and QML plugin.
 media-sound/amarok 3.1.1: Advanced audio player based on KDE frameworks
