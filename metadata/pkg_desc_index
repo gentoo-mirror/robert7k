@@ -18,7 +18,7 @@ dev-python/soundfile 0.12.1: soundfile is an audio library based on libsndfile, 
 dev-qt/qtdbusextended 0.0.3: Extended DBus for Qt
 dev-tex/rmligs 0.87: Removes incorrectly used ligatures from LaTeX documents
 dev-util/idea 2024.1.5 2024.2.4 2024.3.1: IntelliJ IDEA is an intelligent Java IDE
-dev-util/kubelogin 0.1.5: A Kubernetes credential (exec) plugin implementing azure authentication
+dev-util/kubelogin 0.1.6: A Kubernetes credential (exec) plugin implementing azure authentication
 dev-util/typescript-language-server 4.2.0: TypeScript & JavaScript Language Server
 games-arcade/openjazz 20190106: Free engine for Jazz Jackrabbit game
 mail-client/alpine 2.26-r4: An easy to use text-based based mail and news client
