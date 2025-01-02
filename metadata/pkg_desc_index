@@ -10,6 +10,7 @@ dev-elixir/elixir-ls 0.20.0: Elixir Language Server and Debug Adapter
 dev-elixir/hex 2.1.1: Package manager for the Erlang VM
 dev-elixir/lexical 0.5.2: Next-generation language server for Elixir
 dev-java/j2objc-annotations 2.8-r1: Annotations for the J2ObjC Java to Objective-C translator
+dev-java/jnlp-api 6.0.18: JNLP API classes, repackaged from the icedtea-web fork of netx
 dev-java/keystore-explorer 5.5.3: Java key-store management tool.
 dev-java/log4j 1.2.17-r3: A low-overhead robust logging package for Java
 dev-python/sounddevice 0.4.6: Python bindings for PortAudio
