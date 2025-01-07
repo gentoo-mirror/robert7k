@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install preinst prepare setup unpack
+DEPEND=>=virtual/jdk-11 >=dev-java/java-config-2.2.0-r3 >=dev-java/ant-1.10.14-r2:0 dev-java/javatoolkit
+DESCRIPTION=Offline vector map display ported from OsmAnd
+EAPI=8
+HOMEPAGE=https://sourceforge.net/projects/offroadosm
+INHERIT=desktop git-r3 java-pkg-2 java-utils-2 java-ant-2
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=>=virtual/jre-11 >=dev-java/java-config-2.2.0-r3
+SLOT=0
+_eclasses_=desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	git-r3	875eb471682d3e1f18da124be97dcc81	java-utils-2	c610b1541a10e37cb26ab5b707a744f1	java-pkg-2	38fd81c7880666a00a638ca8deb64d72	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	java-ant-2	4051a89fa0bfa0ef171921ea1f3cb262
+_md5_=07e957b62177fedea2580aea0cf5ee89

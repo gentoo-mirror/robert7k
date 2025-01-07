@@ -5,10 +5,12 @@ app-i18n/transifex-client 1.6.17: The Transifex command-line client
 app-misc/xtrkcad 5.2.2: Model Railway CAD program
 app-shells/gradle-completion 1.4.1: Bash completions for Gradle
 app-text/pdfposter 0.8.1 0.8.1-r1: Scale and tile PDF images/pages to print on multiple pages.
+dev-db/sqlworkbench 131: Free, DBMS-independent, cross-platform SQL query tool.
 dev-elixir/elixir-ls 0.20.0: Elixir Language Server and Debug Adapter
 dev-elixir/hex 2.1.1: Package manager for the Erlang VM
 dev-elixir/lexical 0.5.2: Next-generation language server for Elixir
 dev-java/j2objc-annotations 2.8-r1: Annotations for the J2ObjC Java to Objective-C translator
+dev-java/keystore-explorer 5.5.3: Java key-store management tool.
 dev-python/sounddevice 0.4.6: Python bindings for PortAudio
 dev-python/soundfile 0.12.1: soundfile is an audio library based on libsndfile, CFFI and NumPy.
 dev-qt/qtdbusextended 0.0.3: Extended DBus for Qt
@@ -19,6 +21,7 @@ dev-util/typescript-language-server 4.2.0: TypeScript & JavaScript Language Serv
 games-arcade/openjazz 20190106: Free engine for Jazz Jackrabbit game
 mail-client/alpine 2.26-r4: An easy to use text-based based mail and news client
 mail-client/hiri 1.4.0.5: An email client for Exchange and Office 365
+mail-mta/fakesmtp-bin 2.0-r1: Fake SMTP Server with GUI for testing emails in applications easily.
 media-gfx/sweethome3d-bin 7.5: Sweet Home 3D is a free interior design application.
 media-libs/qtmpris 1.0.6: MPRIS v.2 specification implementation for Qt and QML plugin.
 media-sound/amarok 3.1.1: Advanced audio player based on KDE frameworks
@@ -34,6 +37,7 @@ net-libs/nodejs 18.18.2: A JavaScript runtime built on Chrome's V8 JavaScript en
 net-misc/ngrok 3.8.0: programmable network edge
 net-misc/postman-bin 10.15.0 10.19.0: Postman is an API platform for building and using APIs.
 net-vpn/anyconnect 4.10.07061: Cisco AnyConnect Client
+sci-geosciences/offroad 0.6_beta3 9999: Offline vector map display ported from OsmAnd
 sci-geosciences/skytraq-datalogger 9999: Tool to control Skytraq GPS data loggers.
 sci-physics/geigerlog 1.5.0: A Python based GUI program to work with GQ Electronic's Geiger counters
 www-apps/fgallery 1.9.1: Static photo gallery generator
