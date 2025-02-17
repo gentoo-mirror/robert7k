@@ -15,8 +15,8 @@ S="${WORKDIR}"
 
 LICENSE="GPL-3 MIT MIT-with-advertising BSD-1 BSD-2 BSD Apache-2.0 ISC openssl ZLIB APSL-2 icu Artistic-2 LGPL-2.1"
 SLOT="0"
-KEYWORDS="-* ~amd64"
-IUSE="+pulseaudio"
+KEYWORDS="-* amd64"
+IUSE="pulseaudio"
 RESTRICT="splitdebug"
 
 RDEPEND="
@@ -64,6 +64,7 @@ QA_PREBUILT="
 src_prepare() {
 	default
 	sed -e 's| --no-sandbox||g' \
+		-e "s|^Exec=/opt/Signal/signal-desktop|Exec=/usr/bin/${MY_PN}|" \
 		-i usr/share/applications/signal-desktop.desktop || die
 	unpack usr/share/doc/signal-desktop/changelog.gz
 }
@@ -80,10 +81,10 @@ src_install() {
 	fperms u+s /opt/Signal/chrome-sandbox
 	pax-mark m opt/Signal/signal-desktop opt/Signal/chrome-sandbox opt/Signal/chrome_crashpad_handler
 
-	dosym -r /opt/Signal/${MY_PN} /usr/bin/${MY_PN}
-
-	if ! use pulseaudio ; then
-		dosym -r "${EPREFIX}/usr/lib64/apulse/libpulse.so.0" /opt/Signal/libpulse.so.0
+	if use pulseaudio ; then
+		dosym -r /opt/Signal/${MY_PN} /usr/bin/${MY_PN}
+	else
+		dobin "${FILESDIR}/${MY_PN}"
 	fi
 }
 
