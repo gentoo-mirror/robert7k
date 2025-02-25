@@ -15,8 +15,7 @@ S="${WORKDIR}"
 
 LICENSE="GPL-3 MIT MIT-with-advertising BSD-1 BSD-2 BSD Apache-2.0 ISC openssl ZLIB APSL-2 icu Artistic-2 LGPL-2.1"
 SLOT="0"
-KEYWORDS="-* amd64"
-IUSE="pulseaudio"
+KEYWORDS="-* ~amd64"
 RESTRICT="splitdebug"
 
 RDEPEND="
@@ -27,8 +26,10 @@ RDEPEND="
 	dev-libs/nss
 	>=media-fonts/noto-emoji-20231130
 	media-libs/alsa-lib
-	pulseaudio? ( media-libs/libpulse )
-	!pulseaudio? ( media-sound/apulse )
+	|| (
+		media-libs/libpulse
+		media-sound/apulse
+	)
 	media-libs/mesa[X(+)]
 	net-print/cups
 	sys-apps/dbus
@@ -64,7 +65,7 @@ QA_PREBUILT="
 src_prepare() {
 	default
 	sed -e 's| --no-sandbox||g' \
-		-e "s|^Exec=/opt/Signal/signal-desktop|Exec=/usr/bin/${MY_PN}|" \
+		-e "s|^Exec=/opt/Signal/signal-desktop|Exec=${MY_PN}|" \
 		-i usr/share/applications/signal-desktop.desktop || die
 	unpack usr/share/doc/signal-desktop/changelog.gz
 }
@@ -81,11 +82,10 @@ src_install() {
 	fperms u+s /opt/Signal/chrome-sandbox
 	pax-mark m opt/Signal/signal-desktop opt/Signal/chrome-sandbox opt/Signal/chrome_crashpad_handler
 
-	if use pulseaudio ; then
-		dosym -r /opt/Signal/${MY_PN} /usr/bin/${MY_PN}
-	else
-		dobin "${FILESDIR}/${MY_PN}"
-	fi
+	newbin - signal-desktop <<- _EOF_
+		#!/bin/sh
+		exec \$(command -pv apulse) ${EPREFIX}/opt/Signal/signal-desktop "\${@}"
+	_EOF_
 }
 
 pkg_postinst() {
