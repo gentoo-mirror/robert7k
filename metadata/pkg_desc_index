@@ -32,7 +32,7 @@ net-im/teams-for-linux 1.12.8: Unofficial Microsoft Teams for Linux client
 net-libs/libnpupnp 6.0.0: A C++ base UPnP library, derived from Portable UPnP, a.k.a libupnp
 net-libs/librm 2.3.4: Offers FRITZ!Box related core functionality.
 net-libs/libupnpp 0.25.0: The libupnpp C++ library wraps libupnp for easier use by upmpdcli and upplay
-net-libs/nodejs 18.18.2: A JavaScript runtime built on Chrome's V8 JavaScript engine
+net-libs/nodejs 18.18.2 18.19.1: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-misc/ngrok 3.8.0: programmable network edge
 net-misc/postman-bin 10.15.0 10.19.0: Postman is an API platform for building and using APIs.
 sci-geosciences/offroad 0.6_beta3 9999: Offline vector map display ported from OsmAnd
