@@ -9,7 +9,7 @@ CRATES="
 "
 
 declare -A GIT_CRATES=(
-	[alacritty_terminal]='https://github.com/alacritty/alacritty;5e78d20c709cb1ab8d44ca7a8702cc26d779227c;alacritty-%commit%/alacritty_terminal'
+	[alacritty_terminal]='https://github.com/zed-industries/alacritty;03c2907b44b4189aac5fdeaea331f5aab5c7072e;alacritty-%commit%/alacritty_terminal'
 	[async-pipe]='https://github.com/zed-industries/async-pipe-rs;82d00a04211cf4e1236029aa03e6b6ce2a74c553;async-pipe-rs-%commit%'
 	[async-stripe]='https://github.com/zed-industries/async-stripe;3672dd4efb7181aa597bf580bf5a2f5d23db6735;async-stripe-%commit%'
 	[async-tls]='https://github.com/zed-industries/async-tls;1e759a4b5e370f87dc15e40756ac4f8815b61d9d;async-tls-%commit%'
@@ -28,7 +28,6 @@ declare -A GIT_CRATES=(
 	[livekit]='https://github.com/zed-industries/livekit-rust-sdks;811ceae29fabee455f110c56cd66b3f49a7e5003;livekit-rust-sdks-%commit%/livekit'
 	[lsp-types]='https://github.com/zed-industries/lsp-types;1fff0dd12e2071c5667327394cfec163d2a466ab;lsp-types-%commit%'
 	[nvim-rs]='https://github.com/KillTheMule/nvim-rs;69500bae73b8b3f02a05b7bee621a0d0e633da6c;nvim-rs-%commit%'
-	[oo7]='https://github.com/zed-industries/oo7;9d5d5fcd7e4e0add9b420ffb58f67661b0b37568;oo7-%commit%/client'
 	[pet-conda]='https://github.com/microsoft/python-environment-tools;1abe5cec5ebfbe97ca71746a4cfc7fe89bddf8e0;python-environment-tools-%commit%/crates/pet-conda'
 	[pet-core]='https://github.com/microsoft/python-environment-tools;1abe5cec5ebfbe97ca71746a4cfc7fe89bddf8e0;python-environment-tools-%commit%/crates/pet-core'
 	[pet-env-var-path]='https://github.com/microsoft/python-environment-tools;1abe5cec5ebfbe97ca71746a4cfc7fe89bddf8e0;python-environment-tools-%commit%/crates/pet-env-var-path'
@@ -78,7 +77,7 @@ inherit cargo check-reqs desktop flag-o-matic llvm-r1 toolchain-funcs xdg
 DESCRIPTION="The fast, collaborative code editor"
 HOMEPAGE="https://zed.dev https://github.com/zed-industries/zed"
 SRC_URI="
-	https://github.com/zed-industries/zed/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz
+	https://github.com/zed-industries/zed/archive/refs/tags/v${PV/_/-}.tar.gz -> ${P}.tar.gz
 	https://gitlab.com/api/v4/projects/35204985/packages/generic/${PN}/${PV}/${P}-crates.tar.xz
 	amd64? (
 		https://github.com/livekit/rust-sdks/releases/download/webrtc-${WEBRTC_COMMIT}/webrtc-linux-x64-release.zip ->
@@ -114,7 +113,12 @@ DEPEND="
 	dev-libs/wayland-protocols
 	dev-util/wayland-scanner
 	dev-util/vulkan-tools
-	media-fonts/noto
+	|| (
+		media-fonts/dejavu
+		media-fonts/cantarell
+		media-fonts/noto
+		media-fonts/ubuntu-font-family
+	)
 	media-libs/alsa-lib
 	media-libs/fontconfig
 	media-libs/vulkan-loader[X]
@@ -138,6 +142,8 @@ BDEPEND="
 "
 
 QA_FLAGS_IGNORED="usr/bin/zedit"
+
+S="${WORKDIR}/${PN}-${PV/_/-}"
 
 pkg_setup() {
 	if tc-is-gcc; then
