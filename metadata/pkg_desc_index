@@ -1,11 +1,10 @@
 app-dicts/leo-cli 0.36: A simple command line tool for http://dict.leo.org
 app-dicts/myspell-de 2017.01.12-r1: German (AT,CH,DE) dictionaries for myspell/hunspell
-app-editors/zed 0.176.2 0.177.7 0.177.8 0.177.9 0.178.4: The fast, collaborative code editor
+app-editors/zed 0.178.4: The fast, collaborative code editor
 app-i18n/transifex-client 1.6.17: The Transifex command-line client
 app-misc/xtrkcad 5.2.2: Model Railway CAD program
 app-shells/gradle-completion 1.4.1: Bash completions for Gradle
-app-text/pdfposter 0.8.1 0.8.1-r1: Scale and tile PDF images/pages to print on multiple pages.
-dev-db/sqlworkbench 131: Free, DBMS-independent, cross-platform SQL query tool.
+app-text/pdfposter 0.8.1-r1: Scale and tile PDF images/pages to print on multiple pages.
 dev-elixir/elixir-ls 0.20.0: Elixir Language Server and Debug Adapter
 dev-elixir/hex 2.1.1: Package manager for the Erlang VM
 dev-elixir/lexical 0.5.2: Next-generation language server for Elixir
@@ -26,7 +25,6 @@ media-gfx/sweethome3d-bin 7.5: Sweet Home 3D is a free interior design applicati
 media-libs/qtmpris 1.0.6: MPRIS v.2 specification implementation for Qt and QML plugin.
 media-sound/upplay 1.8.1: A Qt-based UPnP audio Control point
 net-dialup/roger-router 2.4.90-r1: A graphical user interface for Fritz!Box routers.
-net-im/SkypeExport 1.4.0: Cross-platform Skype history exporter written in C++
 net-im/signal-desktop-bin 7.46.1: Allows you to send and receive messages of Signal Messenger on your computer
 net-im/teams-for-linux 1.13.1: Unofficial Microsoft Teams for Linux client
 net-libs/libnpupnp 6.0.0: A C++ base UPnP library, derived from Portable UPnP, a.k.a libupnp
@@ -41,4 +39,3 @@ sci-geosciences/skytraq-datalogger 9999: Tool to control Skytraq GPS data logger
 sci-physics/geigerlog 1.5.0: A Python based GUI program to work with GQ Electronic's Geiger counters
 www-apps/fgallery 1.9.1: Static photo gallery generator
 x11-misc/dotool 1.5: Reads actions from stdin and simulates keyboard/mouse input via uinput
-x11-plugins/gkrellm-wifi 0.9.12: A GKrellM2 plug-in for monitoring the link quality of your wireless LAN cards
