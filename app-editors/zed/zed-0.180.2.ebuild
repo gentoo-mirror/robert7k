@@ -16,11 +16,9 @@ declare -A GIT_CRATES=(
 	[blade-graphics]='https://github.com/kvark/blade;b16f5c7bd873c7126f48c82c39e7ae64602ae74f;blade-%commit%/blade-graphics'
 	[blade-macros]='https://github.com/kvark/blade;b16f5c7bd873c7126f48c82c39e7ae64602ae74f;blade-%commit%/blade-macros'
 	[blade-util]='https://github.com/kvark/blade;b16f5c7bd873c7126f48c82c39e7ae64602ae74f;blade-%commit%/blade-util'
-	[cosmic-text]='https://github.com/pop-os/cosmic-text;542b20ca4376a3b5de5fa629db1a4ace44e18e0c;cosmic-text-%commit%'
 	[cpal]='https://github.com/zed-industries/cpal;fd8bc2fd39f1f5fdee5a0690656caff9a26d9d50;cpal-%commit%'
+	[dap-types]='https://github.com/zed-industries/dap-types;bfd4af084bbaa5f344e6925370d7642e41d0b5b8;dap-types-%commit%/dap-types'
 	[font-kit]='https://github.com/zed-industries/font-kit;40391b7c0041d8a8572af2afa3de32ae088f0120;font-kit-%commit%'
-	[git2]='https://github.com/rust-lang/git2-rs;a3b90cb3756c1bb63e2317bf9cfa57838178de5c;git2-rs-%commit%'
-	[libgit2-sys]='https://github.com/rust-lang/git2-rs;a3b90cb3756c1bb63e2317bf9cfa57838178de5c;git2-rs-%commit%/libgit2-sys'
 	[libwebrtc]='https://github.com/zed-industries/livekit-rust-sdks;811ceae29fabee455f110c56cd66b3f49a7e5003;livekit-rust-sdks-%commit%/libwebrtc'
 	[livekit-api]='https://github.com/zed-industries/livekit-rust-sdks;811ceae29fabee455f110c56cd66b3f49a7e5003;livekit-rust-sdks-%commit%/livekit-api'
 	[livekit-protocol]='https://github.com/zed-industries/livekit-rust-sdks;811ceae29fabee455f110c56cd66b3f49a7e5003;livekit-rust-sdks-%commit%/livekit-protocol'
@@ -64,7 +62,6 @@ declare -A GIT_CRATES=(
 	[xim-ctext]='https://github.com/XDeme1/xim-rs;d50d461764c2213655cd9cf65a0ea94c70d3c4fd;xim-rs-%commit%/xim-ctext'
 	[xim-parser]='https://github.com/XDeme1/xim-rs;d50d461764c2213655cd9cf65a0ea94c70d3c4fd;xim-rs-%commit%/xim-parser'
 	[xim]='https://github.com/XDeme1/xim-rs;d50d461764c2213655cd9cf65a0ea94c70d3c4fd;xim-rs-%commit%'
-	[xkbcommon]='https://github.com/ConradIrwin/xkbcommon-rs;fcbb4612185cc129ceeff51d22f7fb51810a03b2;xkbcommon-rs-%commit%'
 )
 
 LLVM_COMPAT=( 19 )
