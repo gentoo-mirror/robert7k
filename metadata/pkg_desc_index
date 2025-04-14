@@ -22,7 +22,7 @@ mail-client/alpine 2.26-r4: An easy to use text-based based mail and news client
 mail-mta/fakesmtp-bin 2.0-r1: Fake SMTP Server with GUI for testing emails in applications easily.
 media-gfx/sweethome3d-bin 7.5: Sweet Home 3D is a free interior design application.
 media-libs/qtmpris 1.0.6: MPRIS v.2 specification implementation for Qt and QML plugin.
-media-sound/upplay 1.9.1: A Qt-based UPnP audio Control point
+media-sound/upplay 1.9.4: A Qt-based UPnP audio Control point
 net-dialup/roger-router 2.4.90-r1: A graphical user interface for Fritz!Box routers.
 net-im/signal-desktop-bin 7.50.0: Allows you to send and receive messages of Signal Messenger on your computer
 net-im/teams-for-linux 2.0.8: Unofficial Microsoft Teams for Linux client
