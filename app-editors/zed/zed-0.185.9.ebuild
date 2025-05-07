@@ -25,7 +25,7 @@ declare -A GIT_CRATES=(
 	[livekit-protocol]='https://github.com/zed-industries/livekit-rust-sdks;80bb8f4c9112789f7c24cc98d8423010977806a6;livekit-rust-sdks-%commit%/livekit-protocol'
 	[livekit-runtime]='https://github.com/zed-industries/livekit-rust-sdks;80bb8f4c9112789f7c24cc98d8423010977806a6;livekit-rust-sdks-%commit%/livekit-runtime'
 	[livekit]='https://github.com/zed-industries/livekit-rust-sdks;80bb8f4c9112789f7c24cc98d8423010977806a6;livekit-rust-sdks-%commit%/livekit'
-	[lsp-types]='https://github.com/zed-industries/lsp-types;1fff0dd12e2071c5667327394cfec163d2a466ab;lsp-types-%commit%'
+	[lsp-types]='https://github.com/zed-industries/lsp-types;c9c189f1c5dd53c624a419ce35bc77ad6a908d18;lsp-types-%commit%'
 	[nbformat]='https://github.com/ConradIrwin/runtimed;7130c804216b6914355d15d0b91ea91f6babd734;runtimed-%commit%/crates/nbformat'
 	[notify-types]='https://github.com/zed-industries/notify;bbb9ea5ae52b253e095737847e367c30653a2e96;notify-%commit%/notify-types'
 	[notify]='https://github.com/zed-industries/notify;bbb9ea5ae52b253e095737847e367c30653a2e96;notify-%commit%/notify'
@@ -54,7 +54,7 @@ declare -A GIT_CRATES=(
 	[pet-windows-registry]='https://github.com/microsoft/python-environment-tools;845945b830297a50de0e24020b980a65e4820559;python-environment-tools-%commit%/crates/pet-windows-registry'
 	[pet-windows-store]='https://github.com/microsoft/python-environment-tools;845945b830297a50de0e24020b980a65e4820559;python-environment-tools-%commit%/crates/pet-windows-store'
 	[pet]='https://github.com/microsoft/python-environment-tools;845945b830297a50de0e24020b980a65e4820559;python-environment-tools-%commit%/crates/pet'
-	[reqwest]='https://github.com/zed-industries/reqwest;fd110f6998da16bbca97b6dddda9be7827c50e29;reqwest-%commit%'
+	[reqwest]='https://github.com/zed-industries/reqwest;951c770a32f1998d6e999cef3e59e0013e6c4415;reqwest-%commit%'
 	[runtimelib]='https://github.com/ConradIrwin/runtimed;7130c804216b6914355d15d0b91ea91f6babd734;runtimed-%commit%/crates/runtimelib'
 	[scap]='https://github.com/zed-industries/scap;08f0a01417505cc0990b9931a37e5120db92e0d0;scap-%commit%'
 	[tree-sitter-gitcommit]='https://github.com/zed-industries/tree-sitter-git-commit;88309716a69dd13ab83443721ba6e0b491d37ee9;tree-sitter-git-commit-%commit%'
@@ -97,7 +97,7 @@ LICENSE="GPL-3+"
 # Dependent crate licenses
 LICENSE+="
 	Apache-2.0 Apache-2.0-with-LLVM-exceptions BSD-2 BSD CC0-1.0 ISC
-	LGPL-3 MIT MPL-2.0 UoI-NCSA openssl Unicode-3.0 ZLIB
+	LGPL-3 MIT MIT-0 MPL-2.0 UoI-NCSA openssl Unicode-3.0 ZLIB
 "
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
