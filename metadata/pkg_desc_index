@@ -20,7 +20,6 @@ dev-util/typescript-language-server 4.2.0: TypeScript & JavaScript Language Serv
 games-arcade/openjazz 20190106: Free engine for Jazz Jackrabbit game
 mail-client/alpine 2.26-r4: An easy to use text-based based mail and news client
 mail-mta/fakesmtp-bin 2.0-r1: Fake SMTP Server with GUI for testing emails in applications easily.
-media-gfx/superslicer-bin 2.5.60.0: SuperSlicer gcode generator for 3D printers
 media-gfx/sweethome3d-bin 7.5: Sweet Home 3D is a free interior design application.
 media-libs/qtmpris 1.0.6: MPRIS v.2 specification implementation for Qt and QML plugin.
 media-sound/upplay 1.9.6: A Qt-based UPnP audio Control point
