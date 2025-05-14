@@ -81,7 +81,7 @@ DESCRIPTION="The fast, collaborative code editor"
 HOMEPAGE="https://zed.dev https://github.com/zed-industries/zed"
 SRC_URI="
 	https://github.com/zed-industries/zed/archive/refs/tags/v${PV/_/-}.tar.gz -> ${P}.tar.gz
-	https://gitlab.com/api/v4/projects/35204985/packages/generic/${PN}/${PV}/${P}-crates.tar.xz
+	https://gitlab.com/api/v4/projects/35204985/packages/generic/${PN}/$(ver_cut 1-2)/${PN}-$(ver_cut 1-2)-crates.tar.xz
 	amd64? (
 		https://github.com/livekit/rust-sdks/releases/download/webrtc-${WEBRTC_COMMIT}/webrtc-linux-x64-release.zip ->
 			webrtc-${WEBRTC_COMMIT}-linux-x64-release.zip
@@ -101,7 +101,7 @@ LICENSE+="
 "
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
-IUSE="gles lto"
+IUSE="gles"
 CHECKREQS_DISK_BUILD="11G"
 CHECKREQS_MEMORY="16G"
 
@@ -148,7 +148,7 @@ BDEPEND="
 QA_FLAGS_IGNORED="usr/bin/zedit"
 
 pkg_setup() {
-	if use lto; then
+	if tc-is-lto; then
 		if tc-is-gcc; then
 			export CARGO_PROFILE_RELEASE_LTO="true"
 		elif tc-is-clang; then
