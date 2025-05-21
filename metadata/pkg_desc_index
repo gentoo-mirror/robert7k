@@ -35,5 +35,6 @@ net-misc/pulseaudio-dlna 9999: A lightweight DLNA/UPNP/Chromecast streaming serv
 sci-geosciences/offroad 0.6_beta3 9999: Offline vector map display ported from OsmAnd
 sci-geosciences/skytraq-datalogger 9999: Tool to control Skytraq GPS data loggers.
 sci-physics/geigerlog 1.5.0: A Python based GUI program to work with GQ Electronic's Geiger counters
+sys-apps/amd-debug-tools 0.2.1: Helpful tools for debugging AMD Zen systems
 www-apps/fgallery 1.9.1: Static photo gallery generator
 x11-misc/dotool 1.5: Reads actions from stdin and simulates keyboard/mouse input via uinput
