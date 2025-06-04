@@ -12,7 +12,6 @@ dev-java/j2objc-annotations 2.8-r1: Annotations for the J2ObjC Java to Objective
 dev-java/keystore-explorer 5.5.3 5.6.0: Java key-store management tool.
 dev-python/debugpy 1.8.14: An implementation of the Debug Adapter Protocol for Python
 dev-python/sounddevice 0.4.6: Python bindings for PortAudio
-dev-python/soundfile 0.12.1: soundfile is an audio library based on libsndfile, CFFI and NumPy.
 dev-qt/qtdbusextended 0.0.3: Extended DBus for Qt
 dev-tex/rmligs 0.87: Removes incorrectly used ligatures from LaTeX documents
 dev-util/idea 2024.1.5 2024.2.4 2024.3.5 2025.1.1.1: IntelliJ IDEA is an intelligent Java IDE
