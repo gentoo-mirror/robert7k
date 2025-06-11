@@ -1,6 +1,6 @@
 app-dicts/leo-cli 0.36: A simple command line tool for http://dict.leo.org
 app-dicts/myspell-de 2017.01.12-r1: German (AT,CH,DE) dictionaries for myspell/hunspell
-app-editors/zed 0.189.5: The fast, collaborative code editor
+app-editors/zed 0.189.5 0.190.4: The fast, collaborative code editor
 app-i18n/transifex-client 1.6.17: The Transifex command-line client
 app-misc/xtrkcad 5.2.2: Model Railway CAD program
 app-shells/gradle-completion 1.4.1: Bash completions for Gradle
