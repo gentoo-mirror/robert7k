@@ -11,4 +11,4 @@ RESTRICT=splitdebug
 SLOT=0
 SRC_URI=https://updates.signal.org/desktop/apt/pool/s/signal-desktop/signal-desktop_7.57.0_amd64.deb
 _eclasses_=pax-utils	5555f2e75744739fe100ee62c22d28fe	multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	unpacker	3b4ee72d1e2e0374fd8cd3eddfa00627	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575
-_md5_=1a1ef2e344c4ab1d8415b3b88bd2f332
+_md5_=4df9c4ee945c237b5c1b81cad71d981f
