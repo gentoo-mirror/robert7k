@@ -24,7 +24,7 @@ mail-mta/fakesmtp-bin 2.0-r1: Fake SMTP Server with GUI for testing emails in ap
 media-gfx/sweethome3d-bin 7.5: Sweet Home 3D is a free interior design application.
 media-sound/upplay 1.9.7: A Qt-based UPnP audio Control point
 net-dialup/roger-router 2.4.90-r1: A graphical user interface for Fritz!Box routers.
-net-im/signal-desktop-bin 7.59.0: Allows you to send and receive messages of Signal Messenger on your computer
+net-im/signal-desktop-bin 7.60.0: Allows you to send and receive messages of Signal Messenger on your computer
 net-im/teams-for-linux 2.0.17: Unofficial Microsoft Teams for Linux client
 net-libs/libnpupnp 6.0.0: A C++ base UPnP library, derived from Portable UPnP, a.k.a libupnp
 net-libs/librm 2.3.4: Offers FRITZ!Box related core functionality.
