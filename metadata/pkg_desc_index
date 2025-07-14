@@ -11,10 +11,11 @@ dev-elixir/lexical 0.5.2: Next-generation language server for Elixir
 dev-java/j2objc-annotations 2.8-r1: Annotations for the J2ObjC Java to Objective-C translator
 dev-java/keystore-explorer 5.5.3 5.6.0: Java key-store management tool.
 dev-python/debugpy 1.8.14: An implementation of the Debug Adapter Protocol for Python
+dev-python/pydantic-settings 2.10.1: Settings management using pydantic
 dev-python/sounddevice 0.4.6: Python bindings for PortAudio
 dev-qt/qtdbusextended 0.0.3: Extended DBus for Qt
 dev-tex/rmligs 0.87: Removes incorrectly used ligatures from LaTeX documents
-dev-util/claude-usage-monitor 1.0.18: A real-time terminal monitoring tool for Claude AI token usage
+dev-util/claude-usage-monitor 3.0.3: A real-time terminal monitoring tool for Claude AI token usage
 dev-util/idea 2024.1.5 2024.2.4 2024.3.5 2025.1.3: IntelliJ IDEA is an intelligent Java IDE
 dev-util/kubelogin 0.1.7: A Kubernetes credential (exec) plugin implementing azure authentication
 dev-util/typescript-language-server 4.2.0: TypeScript & JavaScript Language Server
