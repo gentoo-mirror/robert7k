@@ -3,7 +3,7 @@
 
 EAPI=8
 
-DISTUTILS_USE_PEP517="hatchling"
+DISTUTILS_USE_PEP517="setuptools"
 PYTHON_COMPAT=( python3_13 )
 inherit distutils-r1
 
@@ -17,20 +17,16 @@ KEYWORDS="~amd64"
 IUSE=""
 
 DEPEND="
+	dev-python/numpy[${PYTHON_USEDEP}]
+	dev-python/pydantic[${PYTHON_USEDEP}]
+	dev-python/pydantic-settings[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]"
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
 S="${WORKDIR}/Claude-Code-Usage-Monitor-${PV}"
-
-src_prepare() {
-    # Fix upstream packaging issue - remove packages = ["."] from pyproject.toml
-    # This prevents installation of non-Python files to site-packages
-    sed -i '/^packages = \["\."\]/d' pyproject.toml || die "Failed to patch pyproject.toml"
-    
-    distutils-r1_src_prepare
-}
 
 python_install_all() {
     distutils-r1_python_install_all
