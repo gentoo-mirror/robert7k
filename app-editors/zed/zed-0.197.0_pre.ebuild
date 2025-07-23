@@ -26,7 +26,7 @@ declare -A GIT_CRATES=(
 	[livekit-protocol]='https://github.com/zed-industries/livekit-rust-sdks;d2eade7a6b15d6dbdb38ba12a1ff7bf07fcebba4;livekit-rust-sdks-%commit%/livekit-protocol'
 	[livekit-runtime]='https://github.com/zed-industries/livekit-rust-sdks;d2eade7a6b15d6dbdb38ba12a1ff7bf07fcebba4;livekit-rust-sdks-%commit%/livekit-runtime'
 	[livekit]='https://github.com/zed-industries/livekit-rust-sdks;d2eade7a6b15d6dbdb38ba12a1ff7bf07fcebba4;livekit-rust-sdks-%commit%/livekit'
-	[lsp-types]='https://github.com/zed-industries/lsp-types;6add7052b598ea1f40f7e8913622c3958b009b60;lsp-types-%commit%'
+	[lsp-types]='https://github.com/zed-industries/lsp-types;39f629bdd03d59abd786ed9fc27e8bca02c0c0ec;lsp-types-%commit%'
 	[nbformat]='https://github.com/ConradIrwin/runtimed;7130c804216b6914355d15d0b91ea91f6babd734;runtimed-%commit%/crates/nbformat'
 	[notify-types]='https://github.com/zed-industries/notify;bbb9ea5ae52b253e095737847e367c30653a2e96;notify-%commit%/notify-types'
 	[notify]='https://github.com/zed-industries/notify;bbb9ea5ae52b253e095737847e367c30653a2e96;notify-%commit%/notify'
@@ -57,7 +57,7 @@ declare -A GIT_CRATES=(
 	[pet]='https://github.com/microsoft/python-environment-tools;845945b830297a50de0e24020b980a65e4820559;python-environment-tools-%commit%/crates/pet'
 	[reqwest]='https://github.com/zed-industries/reqwest;951c770a32f1998d6e999cef3e59e0013e6c4415;reqwest-%commit%'
 	[runtimelib]='https://github.com/ConradIrwin/runtimed;7130c804216b6914355d15d0b91ea91f6babd734;runtimed-%commit%/crates/runtimelib'
-	[scap]='https://github.com/zed-industries/scap;270538dc780f5240723233ff901e1054641ed318;scap-%commit%'
+	[scap]='https://github.com/zed-industries/scap;808aa5c45b41e8f44729d02e38fd00a2fe2722e7;scap-%commit%'
 	[tree-sitter-gitcommit]='https://github.com/zed-industries/tree-sitter-git-commit;88309716a69dd13ab83443721ba6e0b491d37ee9;tree-sitter-git-commit-%commit%'
 	[tree-sitter-gomod]='https://github.com/camdencheek/tree-sitter-go-mod;6efb59652d30e0e9cd5f3b3a669afd6f1a926d3c;tree-sitter-go-mod-%commit%'
 	[tree-sitter-gowork]='https://github.com/zed-industries/tree-sitter-go-work;acb0617bf7f4fda02c6217676cc64acb89536dc7;tree-sitter-go-work-%commit%'
@@ -67,6 +67,7 @@ declare -A GIT_CRATES=(
 	[tree-sitter-yaml]='https://github.com/zed-industries/tree-sitter-yaml;baff0b51c64ef6a1fb1f8390f3ad6015b83ec13a;tree-sitter-yaml-%commit%'
 	[webrtc-sys-build]='https://github.com/zed-industries/livekit-rust-sdks;d2eade7a6b15d6dbdb38ba12a1ff7bf07fcebba4;livekit-rust-sdks-%commit%/webrtc-sys/build'
 	[webrtc-sys]='https://github.com/zed-industries/livekit-rust-sdks;d2eade7a6b15d6dbdb38ba12a1ff7bf07fcebba4;livekit-rust-sdks-%commit%/webrtc-sys'
+	[windows-capture]='https://github.com/zed-industries/windows-capture;f0d6c1b6691db75461b732f6d5ff56eed002eeb9;windows-capture-%commit%'
 	[xim-ctext]='https://github.com/XDeme1/xim-rs;d50d461764c2213655cd9cf65a0ea94c70d3c4fd;xim-rs-%commit%/xim-ctext'
 	[xim-parser]='https://github.com/XDeme1/xim-rs;d50d461764c2213655cd9cf65a0ea94c70d3c4fd;xim-rs-%commit%/xim-parser'
 	[xim]='https://github.com/XDeme1/xim-rs;d50d461764c2213655cd9cf65a0ea94c70d3c4fd;xim-rs-%commit%'
@@ -83,7 +84,7 @@ DESCRIPTION="The fast, collaborative code editor"
 HOMEPAGE="https://zed.dev https://github.com/zed-industries/zed"
 SRC_URI="
 	https://github.com/zed-industries/zed/archive/refs/tags/v${PV/_/-}.tar.gz -> ${P}.tar.gz
-	https://github.com/gentoo-crate-dist/zed/releases/download/v${PV}/${P}-crates.tar.xz
+	https://github.com/gentoo-crate-dist/zed/releases/download/v${PV/_/-}/${P/_/-}-crates.tar.xz
 	amd64? (
 		https://github.com/livekit/rust-sdks/releases/download/webrtc-${WEBRTC_COMMIT}/webrtc-linux-x64-release.zip ->
 			webrtc-${WEBRTC_COMMIT}-linux-x64-release.zip
@@ -190,8 +191,13 @@ src_prepare() {
 	local NOTIFY_TYPES_GIT="notify-types = { git = \"https://github.com/zed-industries/notify.git\", rev = \"${NOTIFY_COMMIT}\""
 	local NOTIFY_TYPES_PATH="notify-types = \\{ path = \"${WORKDIR}/notify-${NOTIFY_COMMIT}/notify-types\""
 
+	local WIN_CAP_COMMIT="f0d6c1b6691db75461b732f6d5ff56eed002eeb9"
+	local WIN_CAP_GIT="windows-capture = { git = \"https://github.com/zed-industries/windows-capture.git\", rev = \"${WIN_CAP_COMMIT}\""
+	local WIN_CAP_PATH="windows-capture = \\{ path = \"${WORKDIR}/windows-capture-${WIN_CAP_COMMIT}\""
+
 	sed -e "s#${NOTIFY_GIT}#${NOTIFY_PATH}#" \
 		-e "s#${NOTIFY_TYPES_GIT}#${NOTIFY_TYPES_PATH}#" \
+		-e "s#${WIN_CAP_GIT}#${WIN_CAP_PATH}#" \
 		-i "${S}/Cargo.toml" || die "Cargo fetch workaround failed"
 }
 
