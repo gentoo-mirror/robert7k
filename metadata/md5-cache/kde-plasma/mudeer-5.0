@@ -1,0 +1,11 @@
+BDEPEND=kde-frameworks/kpackage:6
+DEFINED_PHASES=install
+DESCRIPTION=KDE Plasma Screen Splitting Shortcuts ideal for Ultrawide Monitors
+EAPI=8
+HOMEPAGE=https://github.com/darkstego/Mudeer
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=kde-plasma/kwin:6
+SLOT=0
+SRC_URI=https://github.com/darkstego/Mudeer/archive/refs/tags/v5.0.tar.gz
+_md5_=2b68a076953a8e52320ed699440fc470
