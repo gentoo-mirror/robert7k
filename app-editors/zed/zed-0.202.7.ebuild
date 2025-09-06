@@ -11,7 +11,6 @@ CRATES="
 declare -A GIT_CRATES=(
 	[alacritty_terminal]='https://github.com/zed-industries/alacritty;828457c9ff1f7ea0a0469337cc8a37ee3a1b0590;alacritty-%commit%/alacritty_terminal'
 	[async-pipe]='https://github.com/zed-industries/async-pipe-rs;82d00a04211cf4e1236029aa03e6b6ce2a74c553;async-pipe-rs-%commit%'
-	[async-stripe]='https://github.com/zed-industries/async-stripe;3672dd4efb7181aa597bf580bf5a2f5d23db6735;async-stripe-%commit%'
 	[blade-graphics]='https://github.com/kvark/blade;e0ec4e720957edd51b945b64dd85605ea54bcfe5;blade-%commit%/blade-graphics'
 	[blade-macros]='https://github.com/kvark/blade;e0ec4e720957edd51b945b64dd85605ea54bcfe5;blade-%commit%/blade-macros'
 	[blade-util]='https://github.com/kvark/blade;e0ec4e720957edd51b945b64dd85605ea54bcfe5;blade-%commit%/blade-util'
@@ -69,14 +68,13 @@ declare -A GIT_CRATES=(
 	[webrtc-sys-build]='https://github.com/zed-industries/livekit-rust-sdks;5f04705ac3f356350ae31534ffbc476abc9ea83d;livekit-rust-sdks-%commit%/webrtc-sys/build'
 	[webrtc-sys]='https://github.com/zed-industries/livekit-rust-sdks;5f04705ac3f356350ae31534ffbc476abc9ea83d;livekit-rust-sdks-%commit%/webrtc-sys'
 	[windows-capture]='https://github.com/zed-industries/windows-capture;f0d6c1b6691db75461b732f6d5ff56eed002eeb9;windows-capture-%commit%'
-	[xim-ctext]='https://github.com/XDeme1/xim-rs;d50d461764c2213655cd9cf65a0ea94c70d3c4fd;xim-rs-%commit%/xim-ctext'
-	[xim-parser]='https://github.com/XDeme1/xim-rs;d50d461764c2213655cd9cf65a0ea94c70d3c4fd;xim-rs-%commit%/xim-parser'
-	[xim]='https://github.com/XDeme1/xim-rs;d50d461764c2213655cd9cf65a0ea94c70d3c4fd;xim-rs-%commit%'
-	[yawc]='https://github.com/deviant-forks/yawc;1899688f3e69ace4545aceb97b2a13881cf26142;yawc-%commit%'
+	[xim-ctext]='https://github.com/zed-industries/xim-rs;c0a70c1bd2ce197364216e5e818a2cb3adb99a8d;xim-rs-%commit%/xim-ctext'
+	[xim-parser]='https://github.com/zed-industries/xim-rs;c0a70c1bd2ce197364216e5e818a2cb3adb99a8d;xim-rs-%commit%/xim-parser'
+	[xim]='https://github.com/zed-industries/xim-rs;c0a70c1bd2ce197364216e5e818a2cb3adb99a8d;xim-rs-%commit%'
 )
 
 LLVM_COMPAT=( 20 )
-RUST_MIN_VER="1.88.0"
+RUST_MIN_VER="1.89.0"
 RUST_NEEDS_LLVM=1
 WEBRTC_COMMIT="b99fd2c-6"
 
