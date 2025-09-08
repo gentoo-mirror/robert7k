@@ -2,7 +2,6 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-app-editors/zed:gles - Use simplified OpenGLES instead of full-scale OpenGL
 games-arcade/openjazz:xmas - Enable Xmas levels
 mail-client/alpine:chappa - enhance Alpine by applying Eduardo Chappa's patches
 mail-client/alpine:onlyalpine - installs only the alpine binary, so it does not collied with pico and/or pine
