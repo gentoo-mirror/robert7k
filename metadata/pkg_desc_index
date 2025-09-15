@@ -15,7 +15,8 @@ dev-python/pydantic-settings 2.10.1: Settings management using pydantic
 dev-python/sounddevice 0.4.6: Python bindings for PortAudio
 dev-qt/qtdbusextended 0.0.3: Extended DBus for Qt
 dev-tex/rmligs 0.87: Removes incorrectly used ligatures from LaTeX documents
-dev-util/claude-usage-monitor 3.0.4 3.1.0: A real-time terminal monitoring tool for Claude AI token usage
+dev-util/ccusage 16.2.4: Usage analysis tool for Claude Code token usage and costs
+dev-util/claude-usage-monitor 3.1.0: A real-time terminal monitoring tool for Claude AI token usage
 dev-util/gemini-cli 0.4.1: Gemini CLI - an open-source AI agent that brings Google Gemini to your terminal
 dev-util/idea 2024.1.5 2024.2.4 2024.3.5 2025.1.4.1 2025.2.1: IntelliJ IDEA is an intelligent Java IDE
 dev-util/kubelogin 0.1.7: A Kubernetes credential (exec) plugin implementing azure authentication
