@@ -18,7 +18,7 @@ dev-tex/rmligs 0.87: Removes incorrectly used ligatures from LaTeX documents
 dev-util/ccusage 17.1.1: Usage analysis tool for Claude Code token usage and costs
 dev-util/claude-usage-monitor 3.1.0: A real-time terminal monitoring tool for Claude AI token usage
 dev-util/gemini-cli 0.7.0: Gemini CLI - an open-source AI agent that brings Google Gemini to your terminal
-dev-util/idea 2024.1.5 2024.2.4 2024.3.5 2025.1.4.1 2025.2.2: IntelliJ IDEA is an intelligent Java IDE
+dev-util/idea 2024.1.5 2024.2.4 2024.3.5 2025.1.4.1 2025.2.3: IntelliJ IDEA is an intelligent Java IDE
 dev-util/kubelogin 0.1.7: A Kubernetes credential (exec) plugin implementing azure authentication
 dev-util/typescript-language-server 4.2.0: TypeScript & JavaScript Language Server
 games-arcade/openjazz 20190106: Free engine for Jazz Jackrabbit game
@@ -28,7 +28,7 @@ mail-mta/fakesmtp-bin 2.0-r1: Fake SMTP Server with GUI for testing emails in ap
 media-gfx/sweethome3d-bin 7.5: Sweet Home 3D is a free interior design application.
 media-sound/upplay 1.9.7: A Qt-based UPnP audio Control point
 net-dialup/roger-router 2.4.90-r1: A graphical user interface for Fritz!Box routers.
-net-im/signal-desktop-bin 7.72.1: Allows you to send and receive messages of Signal Messenger on your computer
+net-im/signal-desktop-bin 7.73.0: Allows you to send and receive messages of Signal Messenger on your computer
 net-im/teams-for-linux 2.5.1: Unofficial Microsoft Teams for Linux client
 net-libs/libnpupnp 6.0.0: A C++ base UPnP library, derived from Portable UPnP, a.k.a libupnp
 net-libs/librm 2.3.4: Offers FRITZ!Box related core functionality.
