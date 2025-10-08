@@ -1,6 +1,6 @@
 app-dicts/leo-cli 0.36: A simple command line tool for http://dict.leo.org
 app-dicts/myspell-de 2017.01.12-r1: German (AT,CH,DE) dictionaries for myspell/hunspell
-app-editors/zed 0.205.6 0.205.8 0.205.9 0.206.6: The fast, collaborative code editor
+app-editors/zed 0.205.6 0.205.8 0.205.9 0.206.6 0.206.7: The fast, collaborative code editor
 app-i18n/transifex-client 1.6.17: The Transifex command-line client
 app-misc/xtrkcad 5.2.2: Model Railway CAD program
 app-shells/gradle-completion 1.4.1: Bash completions for Gradle
@@ -17,7 +17,7 @@ dev-qt/qtdbusextended 0.0.3: Extended DBus for Qt
 dev-tex/rmligs 0.87: Removes incorrectly used ligatures from LaTeX documents
 dev-util/ccusage 17.1.3: Usage analysis tool for Claude Code token usage and costs
 dev-util/claude-usage-monitor 3.1.0: A real-time terminal monitoring tool for Claude AI token usage
-dev-util/gemini-cli 0.7.0: Gemini CLI - an open-source AI agent that brings Google Gemini to your terminal
+dev-util/gemini-cli 0.8.1: Gemini CLI - an open-source AI agent that brings Google Gemini to your terminal
 dev-util/idea 2024.1.5 2024.2.4 2024.3.5 2025.1.4.1 2025.2.3: IntelliJ IDEA is an intelligent Java IDE
 dev-util/kubelogin 0.1.7: A Kubernetes credential (exec) plugin implementing azure authentication
 dev-util/typescript-language-server 4.2.0: TypeScript & JavaScript Language Server
