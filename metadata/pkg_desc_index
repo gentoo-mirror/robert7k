@@ -20,7 +20,7 @@ dev-util/claude-usage-monitor 3.1.0: A real-time terminal monitoring tool for Cl
 dev-util/gemini-cli 0.8.2: Gemini CLI - an open-source AI agent that brings Google Gemini to your terminal
 dev-util/idea 2024.1.5 2024.2.4 2024.3.5 2025.1.4.1 2025.2.3: IntelliJ IDEA is an intelligent Java IDE
 dev-util/kubelogin 0.1.7: A Kubernetes credential (exec) plugin implementing azure authentication
-dev-util/typescript-language-server 4.2.0: TypeScript & JavaScript Language Server
+dev-util/typescript-language-server 4.2.0 5.0.1: TypeScript & JavaScript Language Server
 games-arcade/openjazz 20190106: Free engine for Jazz Jackrabbit game
 kde-plasma/mudeer 5.0: KDE Plasma Screen Splitting Shortcuts ideal for Ultrawide Monitors
 mail-client/alpine 2.26-r4: An easy to use text-based based mail and news client
