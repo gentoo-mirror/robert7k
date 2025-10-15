@@ -6,5 +6,5 @@ KEYWORDS=~amd64
 LICENSE=Apache-2.0
 RDEPEND=net-libs/nodejs sys-apps/ripgrep
 SLOT=0
-SRC_URI=https://github.com/google-gemini/gemini-cli/releases/download/v0.8.2/gemini.js -> gemini-cli-0.8.2.js
+SRC_URI=https://github.com/google-gemini/gemini-cli/releases/download/v0.9.0/gemini.js -> gemini-cli-0.9.0.js
 _md5_=0657b9e661b2b243acf4bcb4fc5f48bf
